@@ -15,7 +15,7 @@ from urllib.error import URLError
 API_URL = "https://rwa-api-production.up.railway.app/rwalegacy"
 SNAPSHOTS_DIR = "snapshots"
 DAILY_SNAPSHOT_FILE = os.path.join(SNAPSHOTS_DIR, "rwa_holders_daily.csv")
-DUNE_TABLE_NAME = "dataset_rwa_holders_daily"
+DUNE_TABLE_NAME = "rwa_holders_daily"
 DUNE_NAMESPACE = "plume"
 
 
@@ -149,7 +149,7 @@ def upload_to_dune(api_key):
             is_private=False,
         )
 
-        print(f"Successfully uploaded to Dune: {DUNE_NAMESPACE}.{DUNE_TABLE_NAME}")
+        print(f"Successfully uploaded to Dune: {DUNE_NAMESPACE}.dataset_{DUNE_TABLE_NAME}")
         return table
 
     except ImportError:
