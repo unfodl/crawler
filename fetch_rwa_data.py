@@ -8,6 +8,7 @@ Uploads data to Dune Analytics.
 import csv
 import json
 import os
+import time
 from datetime import datetime
 from urllib.request import urlopen
 from urllib.error import URLError
@@ -19,14 +20,19 @@ DUNE_TABLE_NAME = "rwa_holders_daily"
 DUNE_NAMESPACE = "plume"
 
 
-def fetch_api_data():
-    """Fetch data from the RWA API."""
-    try:
-        with urlopen(API_URL, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except URLError as e:
-        print(f"Error fetching API: {e}")
-        raise
+def fetch_api_data(retries=3, timeout=90):
+    """Fetch data from the RWA API with retries."""
+    for attempt in range(1, retries + 1):
+        try:
+            print(f"Attempt {attempt}/{retries}...")
+            with urlopen(API_URL, timeout=timeout) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except Exception as e:
+            print(f"Error on attempt {attempt}: {e}")
+            if attempt < retries:
+                time.sleep(10)
+            else:
+                raise
 
 
 def load_existing_data():
@@ -99,7 +105,12 @@ def save_csv(data, token_names):
 
 def main():
     print(f"Fetching data from {API_URL}...")
-    api_data = fetch_api_data()
+    try:
+        api_data = fetch_api_data()
+    except Exception as e:
+        print(f"API unavailable after all retries: {e}")
+        print("Skipping update - will retry at next scheduled run")
+        return
 
     print(f"Found {api_data.get('tokenCount', 0)} tokens")
 
