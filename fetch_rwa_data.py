@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetches RWA legacy data from the API and saves it as a CSV snapshot.
+Fetches RWA holder data from api.rwa.xyz and saves it as a CSV snapshot.
 Designed to run via GitHub Actions to build a historical database.
 Uploads data to Dune Analytics.
 """
@@ -8,31 +8,125 @@ Uploads data to Dune Analytics.
 import csv
 import json
 import os
+import sys
 import time
-from datetime import datetime
-from urllib.request import urlopen
-from urllib.error import URLError
+from urllib.request import urlopen, Request
+from urllib.parse import urlencode
 
-API_URL = "https://rwa-api-production.up.railway.app/rwalegacy"
+# Load .env file if present (for local development)
+_env_file = os.path.join(os.path.dirname(__file__), ".env")
+if os.path.exists(_env_file):
+    with open(_env_file) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
+
+API_URL = "https://api.rwa.xyz/v4/tokens/aggregates/timeseries"
+API_TOKEN = os.environ.get("RWA_API_TOKEN", "")
 SNAPSHOTS_DIR = "snapshots"
 DAILY_SNAPSHOT_FILE = os.path.join(SNAPSHOTS_DIR, "rwa_holders_daily.csv")
 DUNE_TABLE_NAME = "rwa_holders_daily"
 DUNE_NAMESPACE = "plume"
 
+# Target tokens: id -> display name
+TARGET_TOKENS = {
+    3699: "Plume nELIXIR",
+    3700: "Plume nINSTO",
+    3701: "Plume nPAYFI",
+    3702: "Plume nCREDIT",
+    3703: "Plume nALPHA",
+    3704: "Plume nETF",
+    3705: "Plume nBASIS",
+    3706: "Plume nTBILL",
+    3759: "Ethereum nELIXIR",
+    5094: "Plume XAUm",
+    4453: "Plume Midas mBASIS",
+    9466: "Solana nTBILL",
+    9467: "Solana nBASIS",
+    9468: "Solana nALPHA",
+}
+
+
+def fetch_page(query, timeout=90):
+    """Fetch a single page from the RWA API."""
+    params = urlencode({"query": json.dumps(query)})
+    url = f"{API_URL}?{params}"
+    req = Request(url, headers={
+        "Authorization": f"Bearer {API_TOKEN}",
+        "User-Agent": "Mozilla/5.0",
+    })
+    with urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
 
 def fetch_api_data(retries=3, timeout=90):
-    """Fetch data from the RWA API with retries."""
-    for attempt in range(1, retries + 1):
-        try:
-            print(f"Attempt {attempt}/{retries}...")
-            with urlopen(API_URL, timeout=timeout) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except Exception as e:
-            print(f"Error on attempt {attempt}: {e}")
-            if attempt < retries:
-                time.sleep(10)
-            else:
-                raise
+    """Fetch all pages from the RWA API and return data in tokenTimeseries format."""
+    base_query = {
+        "filter": {
+            "operator": "and",
+            "filters": [
+                {"field": "measure_id", "operator": "equals", "value": 15},
+                {"field": "date", "operator": "onOrAfter", "value": "2025-06-01T00:00:00.000Z"},
+            ],
+        },
+        "aggregate": {
+            "groupBy": "token",
+            "aggregateFunction": "sum",
+            "interval": "day",
+        },
+        "sort": {"direction": "asc", "field": "date"},
+        "pagination": {"page": 1, "perPage": 200},
+    }
+
+    all_results = []
+    page = 1
+
+    while True:
+        query = {**base_query, "pagination": {"page": page, "perPage": 200}}
+        for attempt in range(1, retries + 1):
+            try:
+                print(f"Fetching page {page}, attempt {attempt}/{retries}...")
+                data = fetch_page(query, timeout=timeout)
+                break
+            except Exception as e:
+                print(f"Error on page {page}, attempt {attempt}: {e}")
+                if attempt < retries:
+                    time.sleep(10)
+                else:
+                    raise
+
+        all_results.extend(data.get("results", []))
+        pagination = data.get("pagination", {})
+        page_count = pagination.get("pageCount", 1)
+        print(f"  Page {page}/{page_count}, got {len(data.get('results', []))} tokens")
+        if page >= page_count:
+            break
+        page += 1
+
+    # Transform to tokenTimeseries format, filtering to target tokens only
+    token_timeseries = {}
+    for item in all_results:
+        group = item.get("group", {})
+        token_id = group.get("id")
+        if token_id not in TARGET_TOKENS:
+            continue
+        display_name = TARGET_TOKENS[token_id]
+        timeseries = [
+            {"date": point[0], "holders": point[1]}
+            for point in item.get("points", [])
+        ]
+        token_timeseries[str(token_id)] = {
+            "id": token_id,
+            "name": display_name,
+            "timeseries": timeseries,
+        }
+
+    return {
+        "measure": "holding_addresses_count",
+        "tokenTimeseries": token_timeseries,
+    }
 
 
 def load_existing_data():
@@ -104,6 +198,10 @@ def save_csv(data, token_names):
 
 
 def main():
+    if not API_TOKEN:
+        print("RWA_API_TOKEN environment variable is not set")
+        sys.exit(1)
+
     print(f"Fetching data from {API_URL}...")
     try:
         api_data = fetch_api_data()
@@ -112,7 +210,7 @@ def main():
         print("Skipping update - will retry at next scheduled run")
         return
 
-    print(f"Found {api_data.get('tokenCount', 0)} tokens")
+    print(f"Found {len(api_data.get('tokenTimeseries', {}))} tokens")
 
     print("Loading existing data...")
     existing_data = load_existing_data()
@@ -124,13 +222,6 @@ def main():
 
     print("Saving CSV...")
     save_csv(merged_data, token_names)
-
-    # Also save a timestamped raw JSON snapshot for debugging
-    timestamp = datetime.utcnow().strftime("%Y-%m-%d")
-    raw_file = os.path.join(SNAPSHOTS_DIR, f"raw_{timestamp}.json")
-    with open(raw_file, "w") as f:
-        json.dump(api_data, f, indent=2)
-    print(f"Saved raw snapshot to {raw_file}")
 
     # Upload to Dune if API key is available
     dune_api_key = os.environ.get("DUNE_API_KEY")
