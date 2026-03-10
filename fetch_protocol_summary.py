@@ -12,6 +12,7 @@ Output structure:
   data/summaries/<protocol>/<YYYY-MM-DD>.summary.json
 """
 
+import io
 import json
 import os
 import sys
@@ -32,6 +33,9 @@ if os.path.exists(_env_file):
 
 API_URL = "https://api.rwa.xyz/v4/tokens"
 API_TOKEN = os.environ.get("RWA_API_TOKEN", "")
+
+DRIVE_ROOT_FOLDER = "1xIc4KA28H3ETExDym-fK9EARWTCbxvuP"
+GOOGLE_SA_JSON    = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 
 PROTOCOLS = ["ondo", "nest", "securitize", "centrifuge"]
 
@@ -227,6 +231,76 @@ def produce_summary(date_str, protocol, today_snapshot, yesterday_snapshot):
 
 
 # ---------------------------------------------------------------------------
+# Google Drive upload
+# ---------------------------------------------------------------------------
+
+def _drive_service():
+    """Build and return an authenticated Drive v3 service."""
+    from google.oauth2 import service_account
+    from googleapiclient.discovery import build
+
+    sa_info = json.loads(GOOGLE_SA_JSON)
+    creds = service_account.Credentials.from_service_account_info(
+        sa_info, scopes=["https://www.googleapis.com/auth/drive"]
+    )
+    return build("drive", "v3", credentials=creds, cache_discovery=False)
+
+
+def _find_or_create_folder(service, name, parent_id):
+    """Return the Drive folder ID for name inside parent, creating it if needed."""
+    q = (
+        f"name='{name}' and mimeType='application/vnd.google-apps.folder' "
+        f"and '{parent_id}' in parents and trashed=false"
+    )
+    results = service.files().list(q=q, fields="files(id)").execute()
+    files = results.get("files", [])
+    if files:
+        return files[0]["id"]
+    meta = {
+        "name": name,
+        "mimeType": "application/vnd.google-apps.folder",
+        "parents": [parent_id],
+    }
+    folder = service.files().create(body=meta, fields="id").execute()
+    return folder["id"]
+
+
+def _upsert_file(service, filename, content_bytes, parent_id):
+    """Upload or overwrite filename inside parent folder."""
+    from googleapiclient.http import MediaIoBaseUpload
+
+    q = f"name='{filename}' and '{parent_id}' in parents and trashed=false"
+    results = service.files().list(q=q, fields="files(id)").execute()
+    files = results.get("files", [])
+
+    media = MediaIoBaseUpload(
+        io.BytesIO(content_bytes), mimetype="application/json", resumable=False
+    )
+    if files:
+        service.files().update(fileId=files[0]["id"], media_body=media).execute()
+    else:
+        meta = {"name": filename, "parents": [parent_id]}
+        service.files().create(body=meta, media_body=media, fields="id").execute()
+
+
+def upload_summary_to_drive(protocol, date_str, summary_path):
+    """Upload summary JSON to Drive: <root>/<protocol>/<date>.summary.json"""
+    if not GOOGLE_SA_JSON:
+        print(f"[{protocol}] GOOGLE_SERVICE_ACCOUNT_JSON not set — skipping Drive upload")
+        return
+    try:
+        service   = _drive_service()
+        folder_id = _find_or_create_folder(service, protocol, DRIVE_ROOT_FOLDER)
+        filename  = f"{date_str}.summary.json"
+        with open(summary_path, "rb") as f:
+            content = f.read()
+        _upsert_file(service, filename, content, folder_id)
+        print(f"[{protocol}] uploaded to Drive → {protocol}/{filename}")
+    except Exception as e:
+        print(f"[{protocol}] Drive upload failed: {e}")
+
+
+# ---------------------------------------------------------------------------
 # Per-protocol runner
 # ---------------------------------------------------------------------------
 
@@ -271,6 +345,7 @@ def run_protocol(protocol, date_str, yesterday_str):
         f"{len(summary['deflates'])} deflates, "
         f"{len(summary['new'])} new"
     )
+    upload_summary_to_drive(protocol, date_str, summary_path)
 
 
 # ---------------------------------------------------------------------------
