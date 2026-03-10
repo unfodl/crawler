@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-10",
+  "protocol": "securitize",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "usty-u-s-treasury-tokens-xdc",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "spice-vc-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "science-blockchain-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}

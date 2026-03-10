@@ -34,6 +34,11 @@ jobs:
           RWA_API_TOKEN: ${{ secrets.RWA_API_TOKEN }}
         run: python fetch_rwa_data.py
 
+      - name: Run protocol summary pipeline
+        env:
+          RWA_API_TOKEN: ${{ secrets.RWA_API_TOKEN }}
+        run: python fetch_protocol_summary.py
+
       - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -41,7 +46,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add snapshots/
+          git add snapshots/ data/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-10",
+  "protocol": "centrifuge",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-celo",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-base",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
