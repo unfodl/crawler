@@ -34,7 +34,7 @@ if os.path.exists(_env_file):
 API_URL = "https://api.rwa.xyz/v4/tokens"
 API_TOKEN = os.environ.get("RWA_API_TOKEN", "")
 
-DRIVE_ROOT_FOLDER = "1xIc4KA28H3ETExDym-fK9EARWTCbxvuP"
+DRIVE_ROOT_FOLDER = "0ANpGLJWQeUCaUk9PVA"
 GOOGLE_SA_JSON    = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 
 PROTOCOLS = ["ondo", "nest", "securitize", "centrifuge"]
@@ -252,7 +252,10 @@ def _find_or_create_folder(service, name, parent_id):
         f"name='{name}' and mimeType='application/vnd.google-apps.folder' "
         f"and '{parent_id}' in parents and trashed=false"
     )
-    results = service.files().list(q=q, fields="files(id)").execute()
+    results = service.files().list(
+        q=q, fields="files(id)",
+        supportsAllDrives=True, includeItemsFromAllDrives=True,
+    ).execute()
     files = results.get("files", [])
     if files:
         return files[0]["id"]
@@ -261,7 +264,7 @@ def _find_or_create_folder(service, name, parent_id):
         "mimeType": "application/vnd.google-apps.folder",
         "parents": [parent_id],
     }
-    folder = service.files().create(body=meta, fields="id").execute()
+    folder = service.files().create(body=meta, fields="id", supportsAllDrives=True).execute()
     return folder["id"]
 
 
@@ -270,17 +273,24 @@ def _upsert_file(service, filename, content_bytes, parent_id):
     from googleapiclient.http import MediaIoBaseUpload
 
     q = f"name='{filename}' and '{parent_id}' in parents and trashed=false"
-    results = service.files().list(q=q, fields="files(id)").execute()
+    results = service.files().list(
+        q=q, fields="files(id)",
+        supportsAllDrives=True, includeItemsFromAllDrives=True,
+    ).execute()
     files = results.get("files", [])
 
     media = MediaIoBaseUpload(
         io.BytesIO(content_bytes), mimetype="application/json", resumable=False
     )
     if files:
-        service.files().update(fileId=files[0]["id"], media_body=media).execute()
+        service.files().update(
+            fileId=files[0]["id"], media_body=media, supportsAllDrives=True,
+        ).execute()
     else:
         meta = {"name": filename, "parents": [parent_id]}
-        service.files().create(body=meta, media_body=media, fields="id").execute()
+        service.files().create(
+            body=meta, media_body=media, fields="id", supportsAllDrives=True,
+        ).execute()
 
 
 def upload_summary_to_drive(protocol, date_str, summary_path):
