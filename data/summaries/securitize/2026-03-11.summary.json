@@ -1,7 +1,31 @@
 {
   "date": "2026-03-11",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "blockchain-capital-iii-digital-liquid-venture-fund-ethereum",
+      "k": [
+        "first_mint"
+      ]
+    }
+  ]
 }

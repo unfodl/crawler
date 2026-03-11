@@ -1,7 +1,21 @@
 {
   "date": "2026-03-11",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-plume",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
