@@ -5,7 +5,17 @@
     {
       "id": "ondo-short-term-us-government-bond-fund-ethereum",
       "k": [
-        "flow_up"
+        "flow_up",
+        "activity_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_up"
       ]
     },
     {
@@ -24,6 +34,21 @@
         "value_down",
         "supply_down",
         "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantra",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "at-t-ondo-tokenized-solana",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
       ]
     }
   ],

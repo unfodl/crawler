@@ -3,12 +3,6 @@
   "protocol": "securitize",
   "inflates": [
     {
-      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
-      "k": [
-        "flow_up"
-      ]
-    },
-    {
       "id": "blockchain-capital-iii-digital-liquid-venture-fund-ethereum",
       "k": [
         "holders_up"
@@ -17,9 +11,24 @@
   ],
   "deflates": [
     {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
       "id": "apollo-diversified-credit-securitize-fund-ethereum",
       "k": [
+        "flow_down",
         "holders_down"
+      ]
+    },
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
+      "k": [
+        "activity_down"
       ]
     }
   ],

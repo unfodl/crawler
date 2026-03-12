@@ -3,13 +3,23 @@
   "protocol": "centrifuge",
   "inflates": [
     {
-      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
       "k": [
-        "flow_up",
-        "holders_up"
+        "holders_up",
+        "value_up",
+        "supply_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
   "new": []
 }
