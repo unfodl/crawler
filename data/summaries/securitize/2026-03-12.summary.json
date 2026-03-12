@@ -1,0 +1,27 @@
+{
+  "date": "2026-03-12",
+  "protocol": "securitize",
+  "inflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "blockchain-capital-iii-digital-liquid-venture-fund-ethereum",
+      "k": [
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "holders_down"
+      ]
+    }
+  ],
+  "new": []
+}

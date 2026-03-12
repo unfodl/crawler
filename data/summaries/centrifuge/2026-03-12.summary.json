@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-12",
+  "protocol": "centrifuge",
+  "inflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [],
+  "new": []
+}

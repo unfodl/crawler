@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-12",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "flow_up",
+        "value_up",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-ethereum",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_down"
+      ]
+    }
+  ],
+  "new": []
+}

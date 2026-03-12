@@ -1,0 +1,16 @@
+{
+  "date": "2026-03-12",
+  "protocol": "nest",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
+  "new": []
+}
