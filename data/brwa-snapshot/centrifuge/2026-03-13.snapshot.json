@@ -14,7 +14,13 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": null,
     "top_5_holder_concentration": null,
-    "top_10_holder_concentration": null
+    "top_10_holder_concentration": null,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "janus-henderson-anemoy-treasury-fund-base": {
     "id": "janus-henderson-anemoy-treasury-fund-base",
@@ -31,24 +37,37 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 86.20825683864601,
     "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "holders_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "janus-henderson-anemoy-treasury-fund-ethereum": {
     "id": "janus-henderson-anemoy-treasury-fund-ethereum",
     "name": "Ethereum JTRSY",
     "network": "ethereum",
-    "total_asset_value_dollar": 616299551.8969569,
-    "total_supply_token": 563912617.034361,
+    "total_asset_value_dollar": 666113749.5034024,
+    "total_supply_token": 609492488.788696,
     "holding_addresses_count": 9.0,
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 1.0,
-    "trailing_7_day_transfer_count": 0.0,
-    "trailing_30_day_transfer_count": 0.0,
-    "trailing_7_day_transfer_volume": 0.0,
-    "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 90.84111691260883,
-    "top_5_holder_concentration": 99.93275207053507,
-    "top_10_holder_concentration": 100.0
+    "trailing_7_day_transfer_count": 1.0,
+    "trailing_30_day_transfer_count": 1.0,
+    "trailing_7_day_transfer_volume": 49818408.51857113,
+    "trailing_30_day_transfer_volume": 49818408.51857113,
+    "top_holder_concentration": 91.5266807574066,
+    "top_5_holder_concentration": 99.9377810939556,
+    "top_10_holder_concentration": 99.99999999999999,
+    "change": {
+      "tvl_usd": 49814197.61,
+      "tvl_pct": 0.080828,
+      "supply_pct": 0.080828,
+      "holders_pct": 0.0,
+      "activity_pct": 0.0,
+      "flow_usd": 49818408.52
+    }
   },
   "janus-henderson-anemoy-treasury-fund-arbitrum": {
     "id": "janus-henderson-anemoy-treasury-fund-arbitrum",
@@ -76,13 +95,21 @@
     "holding_addresses_count": 9.0,
     "trailing_7_day_active_addresses_count": 4.0,
     "trailing_30_day_active_addresses_count": 9.0,
-    "trailing_7_day_transfer_count": 13.0,
+    "trailing_7_day_transfer_count": 7.0,
     "trailing_30_day_transfer_count": 40.0,
-    "trailing_7_day_transfer_volume": 987142570.3706162,
+    "trailing_7_day_transfer_volume": 979938428.3172796,
     "trailing_30_day_transfer_volume": 1037476109.1956217,
-    "top_holder_concentration": 79.62183106293102,
-    "top_5_holder_concentration": 99.24774636126762,
-    "top_10_holder_concentration": 100.00000000000003
+    "top_holder_concentration": 79.62183106293101,
+    "top_5_holder_concentration": 99.24774636126759,
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
+      "activity_pct": 0.0,
+      "flow_usd": -7204142.05
+    }
   },
   "janus-henderson-anemoy-aaa-clo-fund-base": {
     "id": "janus-henderson-anemoy-aaa-clo-fund-base",
@@ -99,7 +126,14 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 100.0,
     "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "janus-henderson-anemoy-aaa-clo-fund-avalanche-c-chain": {
     "id": "janus-henderson-anemoy-aaa-clo-fund-avalanche-c-chain",
@@ -116,7 +150,14 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 100.0,
     "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "janus-henderson-anemoy-treasury-fund-avalanche-c-chain": {
     "id": "janus-henderson-anemoy-treasury-fund-avalanche-c-chain",
@@ -150,7 +191,15 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 97.90109749975501,
     "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
+      "activity_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "anemoy-tokenized-apollo-diversified-credit-fund-plume": {
     "id": "anemoy-tokenized-apollo-diversified-credit-fund-plume",
@@ -159,15 +208,23 @@
     "total_asset_value_dollar": 51107032.2661396,
     "total_supply_token": 50112247.56430442,
     "holding_addresses_count": 4.0,
-    "trailing_7_day_active_addresses_count": 1.0,
-    "trailing_30_day_active_addresses_count": 1.0,
-    "trailing_7_day_transfer_count": 1.0,
-    "trailing_30_day_transfer_count": 2.0,
-    "trailing_7_day_transfer_volume": 1.0198511292186339,
-    "trailing_30_day_transfer_volume": 99963.4006862877,
+    "trailing_7_day_active_addresses_count": 3.0,
+    "trailing_30_day_active_addresses_count": 3.0,
+    "trailing_7_day_transfer_count": 5.0,
+    "trailing_30_day_transfer_count": 6.0,
+    "trailing_7_day_transfer_volume": 1.0606451743873793,
+    "trailing_30_day_transfer_volume": 99963.44148033287,
     "top_holder_concentration": 99.80440382418074,
     "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": 0.0,
+      "tvl_pct": 0.0,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
+      "activity_pct": 2.0,
+      "flow_usd": 0.04
+    }
   },
   "anemoy-tokenized-apollo-diversified-credit-fund-base": {
     "id": "anemoy-tokenized-apollo-diversified-credit-fund-base",
