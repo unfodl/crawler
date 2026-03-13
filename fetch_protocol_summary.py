@@ -143,6 +143,59 @@ def normalize_snapshot(raw_data):
 
 
 # ---------------------------------------------------------------------------
+# Change computation
+# ---------------------------------------------------------------------------
+
+def compute_change(today, yesterday):
+    """
+    Build a `change` dict for a token entry.
+    Only includes fields that can be computed reliably (no nulls emitted).
+    Percentages are decimals (0.032 = +3.2%).
+    """
+    if yesterday is None:
+        return {}
+
+    change = {}
+
+    def _delta(field):
+        t = today.get(field)
+        y = yesterday.get(field)
+        if t is None or y is None:
+            return None, None
+        try:
+            t, y = float(t), float(y)
+        except (TypeError, ValueError):
+            return None, None
+        abs_delta = t - y
+        pct = (abs_delta / abs(y)) if y != 0 else (1.0 if t > 0 else None)
+        return abs_delta, pct
+
+    tvl_abs, tvl_pct = _delta("total_asset_value_dollar")
+    if tvl_abs is not None:
+        change["tvl_usd"] = round(tvl_abs, 2)
+    if tvl_pct is not None:
+        change["tvl_pct"] = round(tvl_pct, 6)
+
+    _, supply_pct = _delta("total_supply_token")
+    if supply_pct is not None:
+        change["supply_pct"] = round(supply_pct, 6)
+
+    _, holders_pct = _delta("holding_addresses_count")
+    if holders_pct is not None:
+        change["holders_pct"] = round(holders_pct, 6)
+
+    _, activity_pct = _delta("trailing_7_day_active_addresses_count")
+    if activity_pct is not None:
+        change["activity_pct"] = round(activity_pct, 6)
+
+    flow_abs, _ = _delta("trailing_7_day_transfer_volume")
+    if flow_abs is not None:
+        change["flow_usd"] = round(flow_abs, 2)
+
+    return change
+
+
+# ---------------------------------------------------------------------------
 # Diff + classify
 # ---------------------------------------------------------------------------
 
@@ -293,21 +346,20 @@ def _upsert_file(service, filename, content_bytes, parent_id):
         ).execute()
 
 
-def upload_summary_to_drive(protocol, date_str, summary_path):
-    """Upload summary JSON to Drive: <root>/<protocol>/<date>.summary.json"""
+def upload_to_drive(protocol, date_str, file_path, filename):
+    """Upload a file to Drive: <root>/<protocol>/<filename>"""
     if not GOOGLE_SA_JSON:
         print(f"[{protocol}] GOOGLE_SERVICE_ACCOUNT_JSON not set — skipping Drive upload")
         return
     try:
         service   = _drive_service()
         folder_id = _find_or_create_folder(service, protocol, DRIVE_ROOT_FOLDER)
-        filename  = f"{date_str}.summary.json"
-        with open(summary_path, "rb") as f:
+        with open(file_path, "rb") as f:
             content = f.read()
         _upsert_file(service, filename, content, folder_id)
         print(f"[{protocol}] uploaded to Drive → {protocol}/{filename}")
     except Exception as e:
-        print(f"[{protocol}] Drive upload failed: {e}")
+        print(f"[{protocol}] Drive upload failed ({filename}): {e}")
 
 
 # ---------------------------------------------------------------------------
@@ -335,8 +387,6 @@ def run_protocol(protocol, date_str, yesterday_str):
         json.dump(raw_data, f)
 
     today_snapshot = normalize_snapshot(raw_data)
-    with open(snapshot_path, "w") as f:
-        json.dump(today_snapshot, f, indent=2)
 
     yesterday_snapshot = {}
     if os.path.exists(yesterday_path):
@@ -344,6 +394,14 @@ def run_protocol(protocol, date_str, yesterday_str):
             yesterday_snapshot = json.load(f)
     else:
         print(f"[{protocol}] no yesterday snapshot — all tokens classified as new")
+
+    # Enrich snapshot with day-over-day change object
+    for token_id, token in today_snapshot.items():
+        ch = compute_change(token, yesterday_snapshot.get(token_id))
+        if ch:
+            token["change"] = ch
+    with open(snapshot_path, "w") as f:
+        json.dump(today_snapshot, f, indent=2)
 
     summary = produce_summary(date_str, protocol, today_snapshot, yesterday_snapshot)
     with open(summary_path, "w") as f:
@@ -355,7 +413,8 @@ def run_protocol(protocol, date_str, yesterday_str):
         f"{len(summary['deflates'])} deflates, "
         f"{len(summary['new'])} new"
     )
-    upload_summary_to_drive(protocol, date_str, summary_path)
+    upload_to_drive(protocol, date_str, snapshot_path, f"{date_str}.snapshot.json")
+    upload_to_drive(protocol, date_str, summary_path, f"{date_str}.summary.json")
 
 
 # ---------------------------------------------------------------------------
