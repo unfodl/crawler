@@ -57,9 +57,9 @@
     "trailing_30_day_transfer_count": 2.0,
     "trailing_7_day_transfer_volume": 194839739.98773047,
     "trailing_30_day_transfer_volume": 194839739.98773047,
-    "top_holder_concentration": 99.1294410737188,
-    "top_5_holder_concentration": 99.98527812811959,
-    "top_10_holder_concentration": 100.00000000000001,
+    "top_holder_concentration": 99.12944107371878,
+    "top_5_holder_concentration": 99.98527812811957,
+    "top_10_holder_concentration": 100.0,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
