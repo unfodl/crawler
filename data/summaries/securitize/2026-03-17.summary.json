@@ -1,7 +1,14 @@
 {
   "date": "2026-03-17",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
