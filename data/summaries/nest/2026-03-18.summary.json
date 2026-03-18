@@ -5,10 +5,39 @@
     {
       "id": "nest-elixir-vault-ethereum",
       "k": [
+        "activity_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-solana",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "nest-credit-vault-plume",
+      "k": [
+        "flow_down",
         "activity_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-basis-vault-plume",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }

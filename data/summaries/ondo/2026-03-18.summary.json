@@ -11,14 +11,42 @@
       ]
     },
     {
-      "id": "ondo-u-s-dollar-token-ethereum",
+      "id": "ondo-u-s-dollar-token-solana",
       "k": [
-        "value_down",
-        "supply_down",
-        "flow_up"
+        "flow_down",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "activity_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
