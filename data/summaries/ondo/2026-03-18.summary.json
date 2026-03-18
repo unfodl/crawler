@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-18",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [],
+  "new": []
+}

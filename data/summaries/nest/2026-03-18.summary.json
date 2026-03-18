@@ -1,0 +1,14 @@
+{
+  "date": "2026-03-18",
+  "protocol": "nest",
+  "inflates": [
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [],
+  "new": []
+}
