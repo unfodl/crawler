@@ -1,0 +1,14 @@
+{
+  "date": "2026-03-19",
+  "protocol": "centrifuge",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
