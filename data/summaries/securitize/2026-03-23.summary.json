@@ -2,6 +2,20 @@
   "date": "2026-03-23",
   "protocol": "securitize",
   "inflates": [],
-  "deflates": [],
-  "new": []
+  "deflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }

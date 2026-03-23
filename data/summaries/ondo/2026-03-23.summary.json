@@ -1,7 +1,50 @@
 {
   "date": "2026-03-23",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-mantra",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ishares-russell-2000-value-etf-ondo-tokenized-ethereum",
+      "k": [
+        "value_down"
+      ]
+    },
+    {
+      "id": "gamestop-ondo-tokenized-ethereum",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
