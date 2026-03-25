@@ -1,7 +1,29 @@
 {
   "date": "2026-03-25",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
+      "k": [
+        "activity_down",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "activity_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-arbitrum",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }

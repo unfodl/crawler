@@ -1,7 +1,43 @@
 {
   "date": "2026-03-25",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-treasury-vault-plume",
+      "k": [
+        "flow_up",
+        "supply_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-solana",
+      "k": [
+        "supply_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-etf-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
