@@ -11,16 +11,37 @@
     {
       "id": "nest-treasury-vault-plume",
       "k": [
-        "value_up"
+        "value_up",
+        "flow_up"
       ]
     },
     {
       "id": "nest-alpha-vault-solana",
       "k": [
+        "flow_down",
         "value_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-etf-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-credit-vault-plume",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }

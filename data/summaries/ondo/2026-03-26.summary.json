@@ -13,13 +13,15 @@
     {
       "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
       "k": [
-        "activity_up",
-        "value_up"
+        "flow_down",
+        "activity_up"
       ]
     },
     {
-      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "id": "ishares-russell-2000-value-etf-ondo-tokenized-ethereum",
       "k": [
+        "flow_up",
+        "holders_down",
         "value_up"
       ]
     }
@@ -28,27 +30,32 @@
     {
       "id": "ondo-u-s-dollar-token-ethereum",
       "k": [
-        "value_down"
+        "value_down",
+        "supply_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "flow_down",
+        "activity_down"
       ]
     },
     {
       "id": "ondo-short-term-us-government-bond-fund-ethereum",
       "k": [
-        "value_down"
-      ]
-    },
-    {
-      "id": "d-wave-quantum-ondo-tokenized-ethereum",
-      "k": [
+        "activity_down",
+        "flow_up",
         "value_down"
       ]
     }
   ],
   "new": [
     {
-      "id": "ondo-u-s-dollar-yield-aptos",
+      "id": "ondo-u-s-dollar-yield-ethereum",
       "k": [
-        "first_seen"
+        "first_mint"
       ]
     }
   ]

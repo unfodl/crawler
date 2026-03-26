@@ -11,19 +11,26 @@
       ]
     },
     {
-      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
+      "id": "janus-henderson-anemoy-s-p500-fund-base",
       "k": [
-        "flow_up",
+        "flow_down",
         "value_up"
       ]
     },
     {
-      "id": "janus-henderson-anemoy-s-p500-fund-base",
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
       "k": [
         "value_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-arbitrum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
