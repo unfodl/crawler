@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-26",
+  "protocol": "nest",
+  "inflates": [
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-solana",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "nest-treasury-vault-plume",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-solana",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [],
+  "new": []
+}
