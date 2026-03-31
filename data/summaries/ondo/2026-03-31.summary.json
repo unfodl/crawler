@@ -3,29 +3,49 @@
   "protocol": "ondo",
   "inflates": [
     {
+      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-solana",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_up"
+      ]
+    },
+    {
       "id": "ondo-u-s-dollar-yield-ethereum",
       "k": [
         "value_up",
         "supply_up"
       ]
-    },
+    }
+  ],
+  "deflates": [
     {
-      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "id": "ondo-u-s-dollar-yield-mantra",
       "k": [
-        "flow_up",
-        "activity_up",
-        "value_down"
+        "flow_down"
       ]
     },
     {
-      "id": "ondo-u-s-dollar-token-ethereum",
+      "id": "at-t-ondo-tokenized-solana",
       "k": [
-        "flow_up",
-        "activity_up",
-        "value_down"
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "activity_down",
+        "flow_down"
       ]
     }
   ],
-  "deflates": [],
   "new": []
 }
