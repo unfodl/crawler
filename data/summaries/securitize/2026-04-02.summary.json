@@ -1,7 +1,28 @@
 {
   "date": "2026-04-02",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
   "deflates": [
     {
       "id": "hamilton-lane-equity-opportunities-securitize-fund-v-polygon",
@@ -15,12 +36,6 @@
   "new": [
     {
       "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-plume",
-      "k": [
-        "first_seen"
-      ]
-    },
-    {
-      "id": "exodus-movement-inc-algorand",
       "k": [
         "first_seen"
       ]
