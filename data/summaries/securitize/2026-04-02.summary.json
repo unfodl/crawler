@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-02",
+  "protocol": "securitize",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "hamilton-lane-equity-opportunities-securitize-fund-v-polygon",
+      "k": [
+        "holders_up",
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-plume",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
