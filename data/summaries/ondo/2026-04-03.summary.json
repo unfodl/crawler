@@ -1,0 +1,14 @@
+{
+  "date": "2026-04-03",
+  "protocol": "ondo",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "ondo-u-s-dollar-yield-aptos",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
