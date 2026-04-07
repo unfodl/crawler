@@ -11,7 +11,7 @@
       ]
     },
     {
-      "id": "nest-blackopal-liquidstone-ii-vault-plume",
+      "id": "nest-basis-vault-plume",
       "k": [
         "flow_up",
         "activity_down"
@@ -21,22 +21,13 @@
       "id": "nest-alpha-vault-plume",
       "k": [
         "activity_down",
-        "flow_up",
-        "value_up"
+        "flow_up"
       ]
     }
   ],
   "deflates": [
     {
-      "id": "nest-alpha-vault-solana",
-      "k": [
-        "supply_down",
-        "value_down",
-        "holders_down"
-      ]
-    },
-    {
-      "id": "nest-credit-vault-plume",
+      "id": "nest-blackopal-liquidstone-ii-vault-plume",
       "k": [
         "flow_up",
         "activity_down",
@@ -44,10 +35,18 @@
       ]
     },
     {
-      "id": "nest-elixir-vault-plume",
+      "id": "nest-elixir-vault-ethereum",
       "k": [
         "flow_down",
         "activity_down"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-solana",
+      "k": [
+        "supply_down",
+        "value_down",
+        "holders_down"
       ]
     }
   ],

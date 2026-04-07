@@ -3,42 +3,40 @@
   "protocol": "ondo",
   "inflates": [
     {
+      "id": "ishares-russell-2000-value-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "at-t-ondo-tokenized-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
       "id": "ondo-short-term-us-government-bond-fund-ethereum",
       "k": [
         "flow_down",
-        "activity_down",
-        "value_up"
-      ]
-    },
-    {
-      "id": "ondo-u-s-dollar-yield-sei",
-      "k": [
-        "flow_up",
-        "activity_up",
-        "holders_up"
-      ]
-    },
-    {
-      "id": "ondo-u-s-dollar-yield-ethereum",
-      "k": [
-        "activity_up",
-        "flow_up"
+        "value_up",
+        "supply_up"
       ]
     }
   ],
   "deflates": [
     {
-      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "id": "ondo-u-s-dollar-yield-stellar",
       "k": [
         "flow_down",
         "activity_down"
       ]
     },
     {
-      "id": "ondo-u-s-dollar-yield-stellar",
+      "id": "ondo-u-s-dollar-yield-mantra",
       "k": [
-        "flow_down",
-        "activity_down"
+        "flow_down"
       ]
     },
     {

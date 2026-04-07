@@ -15,14 +15,13 @@
         "activity_down",
         "holders_down"
       ]
-    }
-  ],
-  "new": [
+    },
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "exodus-movement-algorand",
       "k": [
-        "first_seen"
+        "value_down"
       ]
     }
-  ]
+  ],
+  "new": []
 }
