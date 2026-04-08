@@ -1,7 +1,22 @@
 {
   "date": "2026-04-08",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }

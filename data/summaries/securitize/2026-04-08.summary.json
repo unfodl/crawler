@@ -1,14 +1,27 @@
 {
   "date": "2026-04-08",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
       "k": [
-        "first_seen"
+        "holders_up"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-avalanche-c-chain",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
+  "new": []
 }
