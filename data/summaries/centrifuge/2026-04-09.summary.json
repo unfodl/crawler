@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-09",
+  "protocol": "centrifuge",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "defi-janus-henderson-anemoy-treasury-fund-token-stellar",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-treasury-fund-token-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-treasury-fund-token-base",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
