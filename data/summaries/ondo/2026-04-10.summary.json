@@ -1,7 +1,53 @@
 {
   "date": "2026-04-10",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-mantra",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "at-t-ondo-tokenized-solana",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "value_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ishares-tips-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
