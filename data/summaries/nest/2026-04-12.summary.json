@@ -1,7 +1,51 @@
 {
   "date": "2026-04-12",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-perena-vault-plume",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-solana",
+      "k": [
+        "value_up",
+        "supply_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-apollo-acrdx-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-treasury-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-credit-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down",
+        "supply_down"
+      ]
+    }
+  ],
   "new": []
 }
