@@ -1,7 +1,50 @@
 {
   "date": "2026-04-13",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-arbitrum",
+      "k": [
+        "activity_down",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }
