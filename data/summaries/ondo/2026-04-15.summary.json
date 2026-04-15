@@ -1,7 +1,52 @@
 {
   "date": "2026-04-15",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ishares-russell-2000-value-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "ishares-tips-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
