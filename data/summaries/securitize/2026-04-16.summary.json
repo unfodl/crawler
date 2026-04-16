@@ -1,14 +1,22 @@
 {
   "date": "2026-04-16",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
       "k": [
-        "first_seen"
+        "activity_up",
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [],
+  "new": []
 }
