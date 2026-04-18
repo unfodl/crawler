@@ -1,7 +1,49 @@
 {
   "date": "2026-04-18",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-elixir-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-apollo-acrdx-vault-plume",
+      "k": [
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-credit-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-alpha-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "activity_down",
+        "supply_down",
+        "value_down"
+      ]
+    },
+    {
+      "id": "nest-basis-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }

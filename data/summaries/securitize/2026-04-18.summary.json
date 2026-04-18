@@ -1,7 +1,34 @@
 {
   "date": "2026-04-18",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "kkr-health-care-strategic-growth-ii-securitize-fund-avalanche-c-chain",
+      "k": [
+        "supply_up",
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
