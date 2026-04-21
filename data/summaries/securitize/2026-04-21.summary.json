@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-21",
+  "protocol": "securitize",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
