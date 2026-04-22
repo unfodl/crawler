@@ -1,14 +1,40 @@
 {
   "date": "2026-04-22",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
       "k": [
-        "first_seen"
+        "flow_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "science-blockchain-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
+      "k": [
+        "flow_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
+  "new": []
 }
