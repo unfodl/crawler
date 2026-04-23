@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-23",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "value_up",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "supply_down",
+        "value_down"
+      ]
+    }
+  ],
+  "new": []
+}
