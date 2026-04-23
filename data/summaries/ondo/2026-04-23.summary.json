@@ -6,16 +6,46 @@
       "id": "ondo-u-s-dollar-token-ethereum",
       "k": [
         "value_up",
-        "supply_up"
+        "supply_up",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "flow_up",
+        "activity_up"
       ]
     }
   ],
   "deflates": [
     {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "activity_up",
+        "flow_down",
+        "value_down"
+      ]
+    },
+    {
       "id": "ondo-short-term-us-government-bond-fund-ethereum",
       "k": [
+        "flow_down",
         "supply_down",
         "value_down"
+      ]
+    },
+    {
+      "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down"
       ]
     }
   ],

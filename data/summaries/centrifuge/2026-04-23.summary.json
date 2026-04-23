@@ -3,13 +3,45 @@
   "protocol": "centrifuge",
   "inflates": [
     {
+      "id": "defi-janus-henderson-anemoy-treasury-fund-token-stellar",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-stellar",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
       "id": "janus-henderson-anemoy-treasury-fund-ethereum",
       "k": [
-        "supply_up",
-        "value_up"
+        "flow_down",
+        "value_up",
+        "supply_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-avalanche-c-chain",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
