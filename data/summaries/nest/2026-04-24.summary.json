@@ -2,6 +2,28 @@
   "date": "2026-04-24",
   "protocol": "nest",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "nest-basis-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }
