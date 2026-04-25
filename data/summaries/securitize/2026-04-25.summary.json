@@ -1,14 +1,22 @@
 {
   "date": "2026-04-25",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "apollo-diversified-credit-securitize-fund-solana",
       "k": [
-        "first_seen"
+        "activity_up",
+        "flow_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": []
 }
