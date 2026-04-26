@@ -1,7 +1,34 @@
 {
   "date": "2026-04-26",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-perena-vault-solana",
+      "k": [
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-elixir-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-apollo-acrdx-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }

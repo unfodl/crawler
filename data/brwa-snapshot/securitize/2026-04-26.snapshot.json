@@ -3,7 +3,7 @@
     "id": "exodus-movement-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
-    "total_asset_value_dollar": 71880000.0,
+    "total_asset_value_dollar": 73677000.0,
     "total_supply_token": 8985000.0,
     "holding_addresses_count": null,
     "trailing_7_day_active_addresses_count": null,
@@ -16,8 +16,8 @@
     "top_5_holder_concentration": null,
     "top_10_holder_concentration": null,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": 1797000.0,
+      "tvl_pct": 0.025,
       "supply_pct": 0.0,
       "flow_usd": 0.0
     }
@@ -31,10 +31,10 @@
     "holding_addresses_count": 24.0,
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 6.0,
-    "trailing_7_day_transfer_count": 3.0,
-    "trailing_30_day_transfer_count": 11.0,
-    "trailing_7_day_transfer_volume": 10976686.341735642,
-    "trailing_30_day_transfer_volume": 11323387.919089269,
+    "trailing_7_day_transfer_count": 1.0,
+    "trailing_30_day_transfer_count": 10.0,
+    "trailing_7_day_transfer_volume": 10974496.757256422,
+    "trailing_30_day_transfer_volume": 11322624.594540006,
     "top_holder_concentration": 63.206634268329594,
     "top_5_holder_concentration": 97.41313940801294,
     "top_10_holder_concentration": 99.12354204708005,
@@ -44,7 +44,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -2189.58
     }
   },
   "apollo-diversified-credit-securitize-fund-solana": {
@@ -60,9 +60,9 @@
     "trailing_30_day_transfer_count": 37.0,
     "trailing_7_day_transfer_volume": 931474.6930546981,
     "trailing_30_day_transfer_volume": 31434464.775567953,
-    "top_holder_concentration": 74.693541298293,
-    "top_5_holder_concentration": 92.06066651488567,
-    "top_10_holder_concentration": 97.23882175171775,
+    "top_holder_concentration": 74.69354129829303,
+    "top_5_holder_concentration": 92.0606665148857,
+    "top_10_holder_concentration": 97.2388217517178,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -149,7 +149,7 @@
     "id": "currenc-group-inc-solana",
     "name": "Solana CURR",
     "network": "solana",
-    "total_asset_value_dollar": 14970625.34,
+    "total_asset_value_dollar": 15111414.920000002,
     "total_supply_token": 4692986.0,
     "holding_addresses_count": 2.0,
     "trailing_7_day_active_addresses_count": null,
@@ -162,8 +162,8 @@
     "top_5_holder_concentration": 100.0,
     "top_10_holder_concentration": 100.0,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": 140789.58,
+      "tvl_pct": 0.009404,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "flow_usd": 0.0
@@ -207,9 +207,9 @@
     "trailing_30_day_transfer_count": 4.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 43.60071126544658,
-    "top_holder_concentration": 86.61338211399014,
-    "top_5_holder_concentration": 99.99982677323578,
-    "top_10_holder_concentration": 100.00000000000001,
+    "top_holder_concentration": 86.61338211399013,
+    "top_5_holder_concentration": 99.99982677323577,
+    "top_10_holder_concentration": 100.0,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -399,10 +399,10 @@
     "holding_addresses_count": 61.0,
     "trailing_7_day_active_addresses_count": 2.0,
     "trailing_30_day_active_addresses_count": 5.0,
-    "trailing_7_day_transfer_count": 5.0,
-    "trailing_30_day_transfer_count": 17.0,
-    "trailing_7_day_transfer_volume": 2001961.28,
-    "trailing_30_day_transfer_volume": 31686288.97,
+    "trailing_7_day_transfer_count": 4.0,
+    "trailing_30_day_transfer_count": 13.0,
+    "trailing_7_day_transfer_volume": 2001632.6,
+    "trailing_30_day_transfer_volume": 31423681.56,
     "top_holder_concentration": 36.61622308349045,
     "top_5_holder_concentration": 65.9423660515392,
     "top_10_holder_concentration": 83.53058494000963,
@@ -412,7 +412,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -328.68
     }
   },
   "spice-vc-ethereum": {
