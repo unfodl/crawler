@@ -1,7 +1,14 @@
 {
   "date": "2026-04-27",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
