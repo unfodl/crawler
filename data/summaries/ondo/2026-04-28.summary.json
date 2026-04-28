@@ -14,8 +14,14 @@
       "id": "ondo-u-s-dollar-token-ethereum",
       "k": [
         "flow_down",
-        "value_up",
-        "supply_up"
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "activity_up"
       ]
     }
   ],
@@ -37,8 +43,8 @@
     {
       "id": "ondo-u-s-dollar-yield-arbitrum",
       "k": [
-        "flow_down",
-        "activity_down"
+        "activity_down",
+        "flow_down"
       ]
     }
   ],

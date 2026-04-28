@@ -19,8 +19,8 @@
     {
       "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
       "k": [
-        "flow_down",
-        "activity_down"
+        "activity_down",
+        "flow_down"
       ]
     }
   ],
