@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "protocol": "nest",
+  "inflates": [
+    {
+      "id": "nest-perena-vault-plume",
+      "k": [
+        "value_up",
+        "supply_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-elixir-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-treasury-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-credit-vault-plume",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    }
+  ],
+  "new": []
+}

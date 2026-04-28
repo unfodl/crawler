@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-28",
+  "protocol": "centrifuge",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-solana",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-avalanche-c-chain",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    }
+  ],
+  "new": []
+}
