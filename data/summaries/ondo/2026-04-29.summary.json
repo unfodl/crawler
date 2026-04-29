@@ -1,7 +1,47 @@
 {
   "date": "2026-04-29",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "value_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "gamestop-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down",
+        "value_down"
+      ]
+    },
+    {
+      "id": "ondo-short-term-us-government-bond-fund-xrp-ledger",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }

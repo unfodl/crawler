@@ -1,7 +1,36 @@
 {
   "date": "2026-04-29",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-treasury-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-avalanche-c-chain",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
