@@ -1,7 +1,50 @@
 {
   "date": "2026-05-01",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-token-solana",
+      "k": [
+        "flow_up",
+        "value_up",
+        "supply_up"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "gamestop-ondo-tokenized-ethereum",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-arbitrum",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-ethereum",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
