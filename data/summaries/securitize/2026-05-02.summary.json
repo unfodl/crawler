@@ -30,12 +30,5 @@
       ]
     }
   ],
-  "new": [
-    {
-      "id": "exodus-movement-inc-algorand",
-      "k": [
-        "first_seen"
-      ]
-    }
-  ]
+  "new": []
 }

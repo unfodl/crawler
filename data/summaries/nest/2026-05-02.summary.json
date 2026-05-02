@@ -3,14 +3,6 @@
   "protocol": "nest",
   "inflates": [
     {
-      "id": "nest-elixir-vault-ethereum",
-      "k": [
-        "flow_up",
-        "activity_up",
-        "value_down"
-      ]
-    },
-    {
       "id": "nest-apollo-acrdx-vault-plume",
       "k": [
         "activity_up",
@@ -24,9 +16,25 @@
         "activity_up",
         "value_down"
       ]
+    },
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
     }
   ],
   "deflates": [
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
     {
       "id": "nest-perena-vault-plume",
       "k": [
@@ -39,8 +47,8 @@
       "id": "nest-wisdomtree-vault-plume",
       "k": [
         "activity_up",
-        "value_down",
-        "supply_down"
+        "flow_down",
+        "value_down"
       ]
     }
   ],

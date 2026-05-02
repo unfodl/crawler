@@ -6,19 +6,23 @@
       "id": "ondo-u-s-dollar-yield-ethereum",
       "k": [
         "flow_up",
-        "activity_up"
+        "activity_up",
+        "supply_down"
       ]
     },
     {
-      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "id": "ishares-core-s-p-total-us-stock-market-etf-ondo-tokenized-ethereum",
       "k": [
         "activity_up",
-        "flow_up"
+        "flow_up",
+        "holders_down"
       ]
     },
     {
-      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
+      "id": "gamestop-ondo-tokenized-ethereum",
       "k": [
+        "activity_up",
+        "value_up",
         "flow_up"
       ]
     }
@@ -30,6 +34,20 @@
         "value_down",
         "supply_down",
         "flow_up"
+      ]
+    },
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-solana",
+      "k": [
+        "activity_down",
+        "flow_up",
+        "value_down"
       ]
     }
   ],
