@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-02",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-aptos",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_up"
+      ]
+    }
+  ],
+  "new": []
+}

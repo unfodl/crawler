@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-02",
+  "protocol": "nest",
+  "inflates": [
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    },
+    {
+      "id": "nest-apollo-acrdx-vault-plume",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-perena-vault-plume",
+      "k": [
+        "flow_up",
+        "supply_down",
+        "value_down"
+      ]
+    },
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "activity_up",
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
+  "new": []
+}
