@@ -1,7 +1,36 @@
 {
   "date": "2026-05-03",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-etf-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-payfi-vault-plume",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
