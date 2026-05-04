@@ -3,5 +3,12 @@
   "protocol": "securitize",
   "inflates": [],
   "deflates": [],
-  "new": []
+  "new": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }

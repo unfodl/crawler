@@ -1,6 +1,6 @@
 {
-  "exodus-movement-inc-algorand": {
-    "id": "exodus-movement-inc-algorand",
+  "exodus-movement-algorand": {
+    "id": "exodus-movement-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
     "total_asset_value_dollar": 71880000.0,
@@ -14,13 +14,7 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": null,
     "top_5_holder_concentration": null,
-    "top_10_holder_concentration": null,
-    "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
-      "supply_pct": 0.0,
-      "flow_usd": 0.0
-    }
+    "top_10_holder_concentration": null
   },
   "apollo-diversified-credit-securitize-fund-ethereum": {
     "id": "apollo-diversified-credit-securitize-fund-ethereum",
@@ -55,11 +49,11 @@
     "total_supply_token": 31938.175724000008,
     "holding_addresses_count": 21.0,
     "trailing_7_day_active_addresses_count": 19.0,
-    "trailing_30_day_active_addresses_count": 24.0,
+    "trailing_30_day_active_addresses_count": 22.0,
     "trailing_7_day_transfer_count": 69.0,
-    "trailing_30_day_transfer_count": 100.0,
+    "trailing_30_day_transfer_count": 98.0,
     "trailing_7_day_transfer_volume": 5657560.745642481,
-    "trailing_30_day_transfer_volume": 37040671.893139094,
+    "trailing_30_day_transfer_volume": 10077274.56055496,
     "top_holder_concentration": 81.65085740920483,
     "top_5_holder_concentration": 97.34238126499116,
     "top_10_holder_concentration": 99.4251340063856,
@@ -403,9 +397,9 @@
     "trailing_30_day_transfer_count": 20.0,
     "trailing_7_day_transfer_volume": 2300.46,
     "trailing_30_day_transfer_volume": 31426637.03,
-    "top_holder_concentration": 36.61623382036068,
-    "top_5_holder_concentration": 65.94238680544824,
-    "top_10_holder_concentration": 83.53061103623165,
+    "top_holder_concentration": 36.61623382036067,
+    "top_5_holder_concentration": 65.94238680544822,
+    "top_10_holder_concentration": 83.53061103623163,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -525,9 +519,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 33.34348387277825,
-    "top_5_holder_concentration": 78.3826718845906,
-    "top_10_holder_concentration": 90.59055864488676,
+    "top_holder_concentration": 33.34348387277826,
+    "top_5_holder_concentration": 78.38267188459062,
+    "top_10_holder_concentration": 90.59055864488678,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
