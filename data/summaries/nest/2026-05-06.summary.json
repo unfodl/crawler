@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-06",
+  "protocol": "nest",
+  "inflates": [
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-treasury-vault-solana",
+      "k": [
+        "holders_down"
+      ]
+    },
+    {
+      "id": "nest-alpha-vault-solana",
+      "k": [
+        "holders_down"
+      ]
+    },
+    {
+      "id": "nest-basis-vault-solana",
+      "k": [
+        "holders_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "nest-institutional-alpha-vault-plume",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
