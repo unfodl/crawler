@@ -3,29 +3,51 @@
   "protocol": "nest",
   "inflates": [
     {
+      "id": "nest-apollo-acrdx-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "nest-treasury-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    },
+    {
       "id": "nest-institutional-vault-plume",
       "k": [
-        "holders_up"
+        "holders_up",
+        "flow_up",
+        "activity_up"
       ]
     }
   ],
   "deflates": [
     {
-      "id": "nest-treasury-vault-solana",
+      "id": "nest-wisdomtree-vault-plume",
       "k": [
+        "flow_up",
+        "activity_up",
         "holders_down"
       ]
     },
     {
-      "id": "nest-alpha-vault-solana",
+      "id": "nest-payfi-vault-plume",
       "k": [
+        "flow_down",
         "holders_down"
       ]
     },
     {
-      "id": "nest-basis-vault-solana",
+      "id": "nest-elixir-vault-plume",
       "k": [
-        "holders_down"
+        "holders_down",
+        "flow_down"
       ]
     }
   ],
