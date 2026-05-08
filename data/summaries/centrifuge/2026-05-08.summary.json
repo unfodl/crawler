@@ -11,18 +11,19 @@
       ]
     },
     {
-      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-solana",
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-ethereum",
       "k": [
+        "flow_up",
         "activity_up",
-        "flow_up"
+        "supply_down"
       ]
     },
     {
-      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-base",
+      "id": "janus-henderson-anemoy-s-p500-fund-base",
       "k": [
-        "flow_down",
         "activity_up",
-        "holders_up"
+        "flow_up",
+        "supply_down"
       ]
     }
   ],
@@ -31,12 +32,6 @@
       "id": "anemoy-tokenized-apollo-diversified-credit-fund-ethereum",
       "k": [
         "flow_down"
-      ]
-    },
-    {
-      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
-      "k": [
-        "activity_down"
       ]
     },
     {

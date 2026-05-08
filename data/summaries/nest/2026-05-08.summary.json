@@ -6,22 +6,16 @@
       "id": "nest-treasury-vault-plume",
       "k": [
         "flow_up",
-        "value_up",
-        "supply_up"
+        "activity_down",
+        "value_up"
       ]
     },
     {
-      "id": "nest-elixir-vault-ethereum",
+      "id": "nest-alpha-vault-plume",
       "k": [
-        "activity_up"
-      ]
-    },
-    {
-      "id": "nest-wisdomtree-vault-plume",
-      "k": [
-        "flow_up",
-        "activity_up",
-        "value_down"
+        "flow_down",
+        "activity_down",
+        "value_up"
       ]
     }
   ],
@@ -29,19 +23,23 @@
     {
       "id": "nest-perena-vault-solana",
       "k": [
-        "flow_down"
+        "flow_down",
+        "activity_down",
+        "holders_up"
       ]
     },
     {
-      "id": "nest-etf-vault-plume",
+      "id": "nest-basis-vault-plume",
       "k": [
+        "flow_down",
         "activity_down"
       ]
     },
     {
       "id": "nest-elixir-vault-plume",
       "k": [
-        "activity_down"
+        "activity_down",
+        "flow_down"
       ]
     }
   ],

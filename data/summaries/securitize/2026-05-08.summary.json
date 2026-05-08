@@ -7,12 +7,19 @@
       "k": [
         "value_up"
       ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_up"
+      ]
     }
   ],
   "deflates": [
     {
       "id": "apollo-diversified-credit-securitize-fund-ethereum",
       "k": [
+        "flow_down",
         "activity_down"
       ]
     },
@@ -22,14 +29,13 @@
         "flow_down",
         "activity_down"
       ]
-    }
-  ],
-  "new": [
+    },
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "spice-vc-ethereum",
       "k": [
-        "first_seen"
+        "value_down"
       ]
     }
-  ]
+  ],
+  "new": []
 }

@@ -6,16 +6,14 @@
       "id": "ondo-u-s-dollar-yield-sei",
       "k": [
         "activity_up",
-        "flow_up",
-        "holders_up"
+        "flow_up"
       ]
     },
     {
-      "id": "ondo-u-s-dollar-token-ethereum",
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
       "k": [
-        "flow_down",
-        "value_up",
-        "supply_up"
+        "flow_up",
+        "activity_down"
       ]
     },
     {
@@ -29,19 +27,13 @@
   ],
   "deflates": [
     {
-      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "id": "ishares-russell-2000-value-etf-ondo-tokenized-ethereum",
       "k": [
-        "activity_down"
+        "flow_down"
       ]
     },
     {
-      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
-      "k": [
-        "activity_down"
-      ]
-    },
-    {
-      "id": "ondo-u-s-dollar-yield-mantle",
+      "id": "ondo-u-s-dollar-yield-aptos",
       "k": [
         "activity_down"
       ]
