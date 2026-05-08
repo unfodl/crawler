@@ -1,0 +1,51 @@
+{
+  "date": "2026-05-08",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "flow_down",
+        "value_up",
+        "supply_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "value_up",
+        "supply_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "iboxx-high-yield-corporate-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
+  "new": []
+}
