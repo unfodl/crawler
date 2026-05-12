@@ -1,7 +1,20 @@
 {
   "date": "2026-05-12",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "holders_up"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
