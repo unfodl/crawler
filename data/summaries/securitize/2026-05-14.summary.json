@@ -1,7 +1,40 @@
 {
   "date": "2026-05-14",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "holders_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-aptos",
+      "k": [
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "value_down",
+        "supply_down",
+        "holders_up"
+      ]
+    }
+  ],
   "new": []
 }
