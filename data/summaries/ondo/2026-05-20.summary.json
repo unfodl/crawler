@@ -1,7 +1,63 @@
 {
   "date": "2026-05-20",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "alphabet-class-a-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_up",
+        "activity_down",
+        "supply_up"
+      ]
+    },
+    {
+      "id": "micron-technology-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_down",
+        "flow_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ishares-silver-trust-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "value_up",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "invesco-qqq-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ishares-core-msci-eafe-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down",
+        "flow_down",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "circle-internet-group-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "holders_up"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "ishares-core-us-aggregate-bond-etf-ondo-tokenized-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }
