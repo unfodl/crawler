@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-22",
+  "protocol": "ondo",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-ethereum",
+      "k": [
+        "value_down",
+        "supply_down"
+      ]
+    }
+  ],
+  "new": []
+}
