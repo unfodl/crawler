@@ -1,14 +1,29 @@
 {
   "date": "2026-05-23",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
       "k": [
-        "first_seen"
+        "activity_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    }
+  ],
+  "new": []
 }
