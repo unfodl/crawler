@@ -1,7 +1,50 @@
 {
   "date": "2026-05-26",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "circle-internet-group-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_down",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-sei",
+      "k": [
+        "flow_down",
+        "activity_up",
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "tesla-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "invesco-qqq-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }
