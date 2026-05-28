@@ -1,7 +1,62 @@
 {
   "date": "2026-05-28",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "marvell-technology-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "supply_up"
+      ]
+    },
+    {
+      "id": "micron-technology-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_up",
+        "holders_up",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "invesco-qqq-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "ishares-silver-trust-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "hims-hers-health-ondo-tokenized-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }
