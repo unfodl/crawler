@@ -1,7 +1,41 @@
 {
   "date": "2026-05-30",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
+      "k": [
+        "flow_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-plume",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-polygon",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }
