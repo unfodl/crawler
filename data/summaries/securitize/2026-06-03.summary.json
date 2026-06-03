@@ -1,7 +1,40 @@
 {
   "date": "2026-06-03",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
