@@ -1,7 +1,55 @@
 {
   "date": "2026-06-04",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "marvell-technology-ondo-tokenized-bnb-chain",
+      "k": [
+        "activity_up",
+        "holders_up",
+        "flow_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-bnb-chain",
+      "k": [
+        "value_up",
+        "supply_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "circle-internet-group-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "value_down",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-mantle",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "ishares-core-msci-eafe-etf-ondo-tokenized-ethereum",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "hims-hers-health-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
