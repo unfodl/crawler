@@ -3,7 +3,7 @@
     "id": "exodus-movement-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
-    "total_asset_value_dollar": 60109650.0,
+    "total_asset_value_dollar": 55796850.0,
     "total_supply_token": 8985000.0,
     "holding_addresses_count": null,
     "trailing_7_day_active_addresses_count": null,
@@ -16,8 +16,8 @@
     "top_5_holder_concentration": null,
     "top_10_holder_concentration": null,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": -4312800.0,
+      "tvl_pct": -0.071749,
       "supply_pct": 0.0,
       "flow_usd": 0.0
     }
@@ -120,30 +120,6 @@
       "flow_usd": 0.0
     }
   },
-  "currenc-group-inc-solana": {
-    "id": "currenc-group-inc-solana",
-    "name": "Solana CURR",
-    "network": "solana",
-    "total_asset_value_dollar": 16525030.86,
-    "total_supply_token": 4707986.0,
-    "holding_addresses_count": 3.0,
-    "trailing_7_day_active_addresses_count": null,
-    "trailing_30_day_active_addresses_count": null,
-    "trailing_7_day_transfer_count": 0.0,
-    "trailing_30_day_transfer_count": 0.0,
-    "trailing_7_day_transfer_volume": 0.0,
-    "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 57.20038249901338,
-    "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0,
-    "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
-      "supply_pct": 0.0,
-      "holders_pct": 0.0,
-      "flow_usd": 0.0
-    }
-  },
   "apollo-diversified-credit-securitize-fund-sei": {
     "id": "apollo-diversified-credit-securitize-fund-sei",
     "name": "SEI ACRED",
@@ -166,6 +142,30 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
+      "flow_usd": 0.0
+    }
+  },
+  "currenc-group-inc-solana": {
+    "id": "currenc-group-inc-solana",
+    "name": "Solana CURR",
+    "network": "solana",
+    "total_asset_value_dollar": 14971395.48,
+    "total_supply_token": 4707986.0,
+    "holding_addresses_count": 3.0,
+    "trailing_7_day_active_addresses_count": null,
+    "trailing_30_day_active_addresses_count": null,
+    "trailing_7_day_transfer_count": 0.0,
+    "trailing_30_day_transfer_count": 0.0,
+    "trailing_7_day_transfer_volume": 0.0,
+    "trailing_30_day_transfer_volume": 0.0,
+    "top_holder_concentration": 57.20038249901338,
+    "top_5_holder_concentration": 100.0,
+    "top_10_holder_concentration": 100.0,
+    "change": {
+      "tvl_usd": -1553635.38,
+      "tvl_pct": -0.094017,
+      "supply_pct": 0.0,
+      "holders_pct": 0.0,
       "flow_usd": 0.0
     }
   },
@@ -399,20 +399,20 @@
     "holding_addresses_count": 67.0,
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 9.0,
-    "trailing_7_day_transfer_count": 6.0,
-    "trailing_30_day_transfer_count": 37.0,
-    "trailing_7_day_transfer_volume": 2613.91,
-    "trailing_30_day_transfer_volume": 20443268.268611997,
-    "top_holder_concentration": 30.364809256918196,
-    "top_5_holder_concentration": 67.88077908429602,
-    "top_10_holder_concentration": 82.70711120124095,
+    "trailing_7_day_transfer_count": 5.0,
+    "trailing_30_day_transfer_count": 36.0,
+    "trailing_7_day_transfer_volume": 2287.66,
+    "trailing_30_day_transfer_volume": 20442942.348612,
+    "top_holder_concentration": 30.364809256918218,
+    "top_5_holder_concentration": 67.88077908429605,
+    "top_10_holder_concentration": 82.70711120124098,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -326.25
     }
   },
   "spice-vc-ethereum": {
@@ -525,9 +525,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 33.34348387277825,
-    "top_5_holder_concentration": 78.3826718845906,
-    "top_10_holder_concentration": 90.59055864488676,
+    "top_holder_concentration": 33.343483872778236,
+    "top_5_holder_concentration": 78.38267188459056,
+    "top_10_holder_concentration": 90.59055864488671,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
