@@ -1,6 +1,6 @@
 {
-  "exodus-movement-algorand": {
-    "id": "exodus-movement-algorand",
+  "exodus-movement-inc-algorand": {
+    "id": "exodus-movement-inc-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
     "total_asset_value_dollar": 55796850.0,
@@ -14,13 +14,7 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": null,
     "top_5_holder_concentration": null,
-    "top_10_holder_concentration": null,
-    "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
-      "supply_pct": 0.0,
-      "flow_usd": 0.0
-    }
+    "top_10_holder_concentration": null
   },
   "apollo-diversified-credit-securitize-fund-ethereum": {
     "id": "apollo-diversified-credit-securitize-fund-ethereum",
@@ -354,9 +348,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 91.32195880140014,
-    "top_5_holder_concentration": 95.79791096111263,
-    "top_10_holder_concentration": 97.10251066245695,
+    "top_holder_concentration": 91.32195880140017,
+    "top_5_holder_concentration": 95.79791096111266,
+    "top_10_holder_concentration": 97.10251066245698,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -400,12 +394,12 @@
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 9.0,
     "trailing_7_day_transfer_count": 5.0,
-    "trailing_30_day_transfer_count": 36.0,
+    "trailing_30_day_transfer_count": 35.0,
     "trailing_7_day_transfer_volume": 2287.66,
-    "trailing_30_day_transfer_volume": 20442942.348612,
-    "top_holder_concentration": 30.364809256918218,
-    "top_5_holder_concentration": 67.88077908429605,
-    "top_10_holder_concentration": 82.70711120124098,
+    "trailing_30_day_transfer_volume": 20442616.368612,
+    "top_holder_concentration": 30.3648092569182,
+    "top_5_holder_concentration": 67.88077908429602,
+    "top_10_holder_concentration": 82.70711120124095,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -428,7 +422,7 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 48.8869955728926,
+    "top_holder_concentration": 48.88699557289261,
     "top_5_holder_concentration": 69.66410592067203,
     "top_10_holder_concentration": 79.11402934401906,
     "change": {
@@ -525,9 +519,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 33.343483872778236,
-    "top_5_holder_concentration": 78.38267188459056,
-    "top_10_holder_concentration": 90.59055864488671,
+    "top_holder_concentration": 33.34348387277824,
+    "top_5_holder_concentration": 78.38267188459058,
+    "top_10_holder_concentration": 90.59055864488674,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
