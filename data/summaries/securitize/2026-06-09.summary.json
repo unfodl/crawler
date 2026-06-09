@@ -1,11 +1,24 @@
 {
   "date": "2026-06-09",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": [
     {
       "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-tron",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
       "k": [
         "first_seen"
       ]
