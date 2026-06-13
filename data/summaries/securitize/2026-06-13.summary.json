@@ -1,14 +1,20 @@
 {
   "date": "2026-06-13",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "spice-vc-ethereum",
       "k": [
-        "first_seen"
+        "value_up"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [],
+  "new": []
 }
