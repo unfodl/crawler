@@ -2,6 +2,27 @@
   "date": "2026-06-14",
   "protocol": "centrifuge",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-stellar",
+      "k": [
+        "activity_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-anemoy-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "holders_up"
+      ]
+    }
+  ],
   "new": []
 }

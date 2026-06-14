@@ -3,7 +3,7 @@
     "id": "exodus-movement-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
-    "total_asset_value_dollar": 55707000.0,
+    "total_asset_value_dollar": 54269400.0,
     "total_supply_token": 8985000.0,
     "holding_addresses_count": null,
     "trailing_7_day_active_addresses_count": null,
@@ -16,8 +16,8 @@
     "top_5_holder_concentration": null,
     "top_10_holder_concentration": null,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": -1437600.0,
+      "tvl_pct": -0.025806,
       "supply_pct": 0.0,
       "flow_usd": 0.0
     }
@@ -55,7 +55,7 @@
     "total_supply_token": 22510.195048000005,
     "holding_addresses_count": 26.0,
     "trailing_7_day_active_addresses_count": 3.0,
-    "trailing_30_day_active_addresses_count": 8.0,
+    "trailing_30_day_active_addresses_count": 6.0,
     "trailing_7_day_transfer_count": 0.0,
     "trailing_30_day_transfer_count": 15.0,
     "trailing_7_day_transfer_volume": 0.0,
@@ -149,7 +149,7 @@
     "id": "currenc-group-inc-solana",
     "name": "Solana CURR",
     "network": "solana",
-    "total_asset_value_dollar": 14500596.88,
+    "total_asset_value_dollar": 13088201.079999998,
     "total_supply_token": 4707986.0,
     "holding_addresses_count": 3.0,
     "trailing_7_day_active_addresses_count": null,
@@ -162,8 +162,8 @@
     "top_5_holder_concentration": 100.0,
     "top_10_holder_concentration": 100.0,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": -1412395.8,
+      "tvl_pct": -0.097403,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "flow_usd": 0.0
@@ -422,21 +422,21 @@
     "total_supply_token": 181215094.9503494,
     "holding_addresses_count": 66.0,
     "trailing_7_day_active_addresses_count": 2.0,
-    "trailing_30_day_active_addresses_count": 8.0,
-    "trailing_7_day_transfer_count": 7.0,
-    "trailing_30_day_transfer_count": 38.0,
-    "trailing_7_day_transfer_volume": 14978.42,
-    "trailing_30_day_transfer_volume": 20455646.888612,
-    "top_holder_concentration": 29.945851520885746,
-    "top_5_holder_concentration": 68.32400284589045,
-    "top_10_holder_concentration": 82.94576898718547,
+    "trailing_30_day_active_addresses_count": 7.0,
+    "trailing_7_day_transfer_count": 6.0,
+    "trailing_30_day_transfer_count": 34.0,
+    "trailing_7_day_transfer_volume": 14652.36,
+    "trailing_30_day_transfer_volume": 11002708.224306,
+    "top_holder_concentration": 29.945851520885757,
+    "top_5_holder_concentration": 68.32400284589048,
+    "top_10_holder_concentration": 82.94576898718552,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -326.06
     }
   },
   "spice-vc-ethereum": {
@@ -453,8 +453,8 @@
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 48.88699557289261,
-    "top_5_holder_concentration": 69.66410592067203,
-    "top_10_holder_concentration": 79.11402934401906,
+    "top_5_holder_concentration": 69.66410592067204,
+    "top_10_holder_concentration": 79.11402934401907,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
