@@ -1,7 +1,34 @@
 {
   "date": "2026-06-16",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "kkr-health-care-strategic-growth-ii-securitize-fund-avalanche-c-chain",
+      "k": [
+        "value_up",
+        "supply_up"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "spice-vc-ethereum",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
