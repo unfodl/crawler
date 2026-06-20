@@ -1,9 +1,9 @@
 {
-  "exodus-movement-inc-algorand": {
-    "id": "exodus-movement-inc-algorand",
+  "exodus-movement-algorand": {
+    "id": "exodus-movement-algorand",
     "name": "Algorand EXOD",
     "network": "algorand",
-    "total_asset_value_dollar": 58312650.0,
+    "total_asset_value_dollar": 53730300.00000001,
     "total_supply_token": 8985000.0,
     "holding_addresses_count": null,
     "trailing_7_day_active_addresses_count": null,
@@ -14,7 +14,13 @@
     "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": null,
     "top_5_holder_concentration": null,
-    "top_10_holder_concentration": null
+    "top_10_holder_concentration": null,
+    "change": {
+      "tvl_usd": -4582350.0,
+      "tvl_pct": -0.078582,
+      "supply_pct": 0.0,
+      "flow_usd": 0.0
+    }
   },
   "apollo-diversified-credit-securitize-fund-ethereum": {
     "id": "apollo-diversified-credit-securitize-fund-ethereum",
@@ -25,20 +31,20 @@
     "holding_addresses_count": 25.0,
     "trailing_7_day_active_addresses_count": 2.0,
     "trailing_30_day_active_addresses_count": 3.0,
-    "trailing_7_day_transfer_count": 15.0,
+    "trailing_7_day_transfer_count": 13.0,
     "trailing_30_day_transfer_count": 16.0,
-    "trailing_7_day_transfer_volume": 1508311.8681374625,
+    "trailing_7_day_transfer_volume": 1113337.6115370367,
     "trailing_30_day_transfer_volume": 1543716.3274542377,
-    "top_holder_concentration": 70.34401049296861,
-    "top_5_holder_concentration": 96.72625921676006,
-    "top_10_holder_concentration": 98.88041524175945,
+    "top_holder_concentration": 70.3440104929686,
+    "top_5_holder_concentration": 96.72625921676001,
+    "top_10_holder_concentration": 98.88041524175941,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -394974.26
     }
   },
   "apollo-diversified-credit-securitize-fund-solana": {
@@ -143,7 +149,7 @@
     "id": "currenc-group-inc-solana",
     "name": "Solana CURR",
     "network": "solana",
-    "total_asset_value_dollar": 14044698.28,
+    "total_asset_value_dollar": 14280347.579999998,
     "total_supply_token": 4712986.0,
     "holding_addresses_count": 3.0,
     "trailing_7_day_active_addresses_count": null,
@@ -156,8 +162,8 @@
     "top_5_holder_concentration": 100.0,
     "top_10_holder_concentration": 100.0,
     "change": {
-      "tvl_usd": 0.0,
-      "tvl_pct": 0.0,
+      "tvl_usd": 235649.3,
+      "tvl_pct": 0.016779,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "flow_usd": 0.0
@@ -201,9 +207,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 86.61338211399013,
-    "top_5_holder_concentration": 99.99982677323577,
-    "top_10_holder_concentration": 100.0,
+    "top_holder_concentration": 86.61338211399014,
+    "top_5_holder_concentration": 99.99982677323578,
+    "top_10_holder_concentration": 100.00000000000001,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -417,20 +423,20 @@
     "holding_addresses_count": 66.0,
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 6.0,
-    "trailing_7_day_transfer_count": 6.0,
-    "trailing_30_day_transfer_count": 33.0,
-    "trailing_7_day_transfer_volume": 2619.3700000000003,
-    "trailing_30_day_transfer_volume": 6497928.344306,
-    "top_holder_concentration": 29.945869043901123,
-    "top_5_holder_concentration": 68.32403561967301,
-    "top_10_holder_concentration": 82.94581030956145,
+    "trailing_7_day_transfer_count": 5.0,
+    "trailing_30_day_transfer_count": 32.0,
+    "trailing_7_day_transfer_volume": 2294.7700000000004,
+    "trailing_30_day_transfer_volume": 6497607.314306,
+    "top_holder_concentration": 29.945869043901112,
+    "top_5_holder_concentration": 68.32403561967298,
+    "top_10_holder_concentration": 82.94581030956142,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -324.6
     }
   },
   "spice-vc-ethereum": {
@@ -446,9 +452,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 48.8869955728926,
-    "top_5_holder_concentration": 69.66410592067203,
-    "top_10_holder_concentration": 79.11402934401906,
+    "top_holder_concentration": 48.88699557289261,
+    "top_5_holder_concentration": 69.66410592067204,
+    "top_10_holder_concentration": 79.11402934401907,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
