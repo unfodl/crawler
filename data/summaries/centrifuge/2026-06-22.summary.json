@@ -1,7 +1,22 @@
 {
   "date": "2026-06-22",
   "protocol": "centrifuge",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-base",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "activity_down",
+        "flow_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
