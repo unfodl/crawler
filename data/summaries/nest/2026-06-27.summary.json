@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-27",
+  "protocol": "nest",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
