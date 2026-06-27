@@ -1,14 +1,21 @@
 {
   "date": "2026-06-27",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "currenc-group-inc-solana",
       "k": [
-        "first_seen"
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": []
 }
