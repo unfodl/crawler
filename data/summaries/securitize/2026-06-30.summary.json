@@ -1,14 +1,27 @@
 {
   "date": "2026-06-30",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
       "k": [
-        "first_seen"
+        "flow_up"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "arcoin-ethereum",
+      "k": [
+        "holders_up"
       ]
     }
-  ]
+  ],
+  "deflates": [],
+  "new": []
 }
