@@ -43,6 +43,8 @@ TARGET_TOKENS = {
     3759: "Ethereum nELIXIR",
     5094: "Plume XAUm",
     4453: "Plume Midas mBASIS",
+    8969: "Plume nOPAL",
+    9465: "Solana nOPAL",
     9466: "Solana nTBILL",
     9467: "Solana nBASIS",
     9468: "Solana nALPHA",
