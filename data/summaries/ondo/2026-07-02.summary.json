@@ -1,7 +1,57 @@
 {
   "date": "2026-07-02",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_down",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ishares-core-msci-eafe-etf-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "value_up",
+        "supply_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "micron-technology-ondo-tokenized-ethereum",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "micron-technology-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "value_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nvidia-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
