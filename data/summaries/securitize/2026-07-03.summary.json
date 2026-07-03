@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-03",
+  "protocol": "securitize",
+  "inflates": [
+    {
+      "id": "science-blockchain-ethereum",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "cosimo-x-ethereum",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
