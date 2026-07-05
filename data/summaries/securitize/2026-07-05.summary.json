@@ -1,7 +1,15 @@
 {
   "date": "2026-07-05",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }

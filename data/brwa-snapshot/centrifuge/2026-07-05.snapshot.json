@@ -103,10 +103,10 @@
     "holding_addresses_count": 16.0,
     "trailing_7_day_active_addresses_count": 6.0,
     "trailing_30_day_active_addresses_count": 12.0,
-    "trailing_7_day_transfer_count": 18.0,
-    "trailing_30_day_transfer_count": 41.0,
-    "trailing_7_day_transfer_volume": 1448373.4987251288,
-    "trailing_30_day_transfer_volume": 21972485.087582894,
+    "trailing_7_day_transfer_count": 12.0,
+    "trailing_30_day_transfer_count": 37.0,
+    "trailing_7_day_transfer_volume": 1448349.3439530344,
+    "trailing_30_day_transfer_volume": 20797291.364206143,
     "top_holder_concentration": 54.31190668816578,
     "top_5_holder_concentration": 97.43925942458588,
     "top_10_holder_concentration": 99.86373399005959,
@@ -116,7 +116,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -24.15
     }
   },
   "janus-henderson-anemoy-aaa-clo-fund-base": {
@@ -291,9 +291,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 99.89215019831325,
-    "top_5_holder_concentration": 99.99890118634784,
-    "top_10_holder_concentration": 100.00000000000001,
+    "top_holder_concentration": 99.89215019831323,
+    "top_5_holder_concentration": 99.99890118634782,
+    "top_10_holder_concentration": 100.0,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -310,22 +310,22 @@
     "total_asset_value_dollar": 3181862.2319911257,
     "total_supply_token": 4238.509005390475,
     "holding_addresses_count": 459.0,
-    "trailing_7_day_active_addresses_count": 180.0,
-    "trailing_30_day_active_addresses_count": 375.0,
-    "trailing_7_day_transfer_count": 16326.0,
-    "trailing_30_day_transfer_count": 78491.0,
-    "trailing_7_day_transfer_volume": 56778804.93030735,
-    "trailing_30_day_transfer_volume": 219226329.2072745,
-    "top_holder_concentration": 52.644610099690595,
-    "top_5_holder_concentration": 93.87915412020605,
-    "top_10_holder_concentration": 98.54134754724393,
+    "trailing_7_day_active_addresses_count": 178.0,
+    "trailing_30_day_active_addresses_count": 377.0,
+    "trailing_7_day_transfer_count": 13701.0,
+    "trailing_30_day_transfer_count": 75284.0,
+    "trailing_7_day_transfer_volume": 39675771.71673707,
+    "trailing_30_day_transfer_volume": 209849188.99243572,
+    "top_holder_concentration": 52.62330623741551,
+    "top_5_holder_concentration": 94.37332595424247,
+    "top_10_holder_concentration": 98.75699302876251,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "activity_pct": -0.011111,
+      "flow_usd": -17103033.21
     }
   },
   "defi-janus-henderson-anemoy-aaa-clo-fund-token-avalanche-c-chain": {
@@ -360,11 +360,11 @@
     "total_asset_value_dollar": 5871425.063184871,
     "total_supply_token": 5652577.287903519,
     "holding_addresses_count": 16.0,
-    "trailing_7_day_active_addresses_count": 3.0,
+    "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 9.0,
-    "trailing_7_day_transfer_count": 8.0,
+    "trailing_7_day_transfer_count": 7.0,
     "trailing_30_day_transfer_count": 23.0,
-    "trailing_7_day_transfer_volume": 119340.00224319093,
+    "trailing_7_day_transfer_volume": 119338.9650507857,
     "trailing_30_day_transfer_volume": 6196764.10567233,
     "top_holder_concentration": 86.07635604321172,
     "top_5_holder_concentration": 99.8235583954419,
@@ -374,8 +374,8 @@
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "activity_pct": -0.666667,
+      "flow_usd": -1.04
     }
   },
   "defi-janus-henderson-anemoy-aaa-clo-fund-token-base": {
@@ -384,23 +384,23 @@
     "network": "base",
     "total_asset_value_dollar": 2223385.513806184,
     "total_supply_token": 2140512.451806253,
-    "holding_addresses_count": 129.0,
-    "trailing_7_day_active_addresses_count": 27.0,
-    "trailing_30_day_active_addresses_count": 71.0,
-    "trailing_7_day_transfer_count": 202.0,
-    "trailing_30_day_transfer_count": 437.0,
-    "trailing_7_day_transfer_volume": 251734.21126127185,
-    "trailing_30_day_transfer_volume": 4519571.600039318,
-    "top_holder_concentration": 71.15450257926199,
-    "top_5_holder_concentration": 99.80839667824031,
-    "top_10_holder_concentration": 99.9789951938237,
+    "holding_addresses_count": 128.0,
+    "trailing_7_day_active_addresses_count": 29.0,
+    "trailing_30_day_active_addresses_count": 75.0,
+    "trailing_7_day_transfer_count": 179.0,
+    "trailing_30_day_transfer_count": 441.0,
+    "trailing_7_day_transfer_volume": 257643.14964656637,
+    "trailing_30_day_transfer_volume": 4524511.805120122,
+    "top_holder_concentration": 71.15450257926197,
+    "top_5_holder_concentration": 99.80879203097851,
+    "top_10_holder_concentration": 99.9793905465619,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
-      "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "holders_pct": -0.007752,
+      "activity_pct": 0.074074,
+      "flow_usd": 5908.94
     }
   },
   "defi-janus-henderson-anemoy-aaa-clo-fund-token-arbitrum": {
@@ -409,23 +409,23 @@
     "network": "arbitrum",
     "total_asset_value_dollar": 5430.737940050318,
     "total_supply_token": 5228.316057198022,
-    "holding_addresses_count": 4.0,
-    "trailing_7_day_active_addresses_count": 2.0,
+    "holding_addresses_count": 5.0,
+    "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 3.0,
-    "trailing_7_day_transfer_count": 0.0,
-    "trailing_30_day_transfer_count": 13.0,
-    "trailing_7_day_transfer_volume": 0.0,
-    "trailing_30_day_transfer_volume": 6835.226983311522,
-    "top_holder_concentration": 97.05090381656395,
+    "trailing_7_day_transfer_count": 1.0,
+    "trailing_30_day_transfer_count": 14.0,
+    "trailing_7_day_transfer_volume": 527.9572900000001,
+    "trailing_30_day_transfer_volume": 7363.184273311523,
+    "top_holder_concentration": 87.32925464423941,
     "top_5_holder_concentration": 99.99999999999999,
     "top_10_holder_concentration": 99.99999999999999,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
-      "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "holders_pct": 0.25,
+      "activity_pct": -0.5,
+      "flow_usd": 527.96
     }
   },
   "defi-janus-henderson-anemoy-aaa-clo-fund-token-solana": {
@@ -435,22 +435,22 @@
     "total_asset_value_dollar": 583156.0267054932,
     "total_supply_token": 561419.8386909973,
     "holding_addresses_count": 49.0,
-    "trailing_7_day_active_addresses_count": 286.0,
+    "trailing_7_day_active_addresses_count": 281.0,
     "trailing_30_day_active_addresses_count": 300.0,
-    "trailing_7_day_transfer_count": 872.0,
-    "trailing_30_day_transfer_count": 949.0,
-    "trailing_7_day_transfer_volume": 120250.12275865981,
-    "trailing_30_day_transfer_volume": 3041726.4946072754,
-    "top_holder_concentration": 88.76980209053433,
-    "top_5_holder_concentration": 99.98888703325021,
-    "top_10_holder_concentration": 99.99699263619898,
+    "trailing_7_day_transfer_count": 871.0,
+    "trailing_30_day_transfer_count": 945.0,
+    "trailing_7_day_transfer_volume": 120047.80620960314,
+    "trailing_30_day_transfer_volume": 3040380.9094237955,
+    "top_holder_concentration": 88.76980209053441,
+    "top_5_holder_concentration": 99.98888703325032,
+    "top_10_holder_concentration": 99.9969926361991,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "activity_pct": -0.017483,
+      "flow_usd": -202.32
     }
   },
   "defi-janus-henderson-anemoy-aaa-clo-fund-token-stellar": {
@@ -461,10 +461,10 @@
     "total_supply_token": 4865533.446519136,
     "holding_addresses_count": 20.0,
     "trailing_7_day_active_addresses_count": 4.0,
-    "trailing_30_day_active_addresses_count": 10.0,
-    "trailing_7_day_transfer_count": 12.0,
+    "trailing_30_day_active_addresses_count": 9.0,
+    "trailing_7_day_transfer_count": 8.0,
     "trailing_30_day_transfer_count": 19.0,
-    "trailing_7_day_transfer_volume": 48.361922307323105,
+    "trailing_7_day_transfer_volume": 29.9369066045997,
     "trailing_30_day_transfer_volume": 54.87693451765194,
     "top_holder_concentration": 50.25020325917762,
     "top_5_holder_concentration": 99.99976381546905,
@@ -475,7 +475,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -18.43
     }
   },
   "defi-janus-henderson-anemoy-treasury-fund-token-ethereum": {
@@ -486,7 +486,7 @@
     "total_supply_token": 5002439.64562943,
     "holding_addresses_count": 13.0,
     "trailing_7_day_active_addresses_count": 3.0,
-    "trailing_30_day_active_addresses_count": 4.0,
+    "trailing_30_day_active_addresses_count": 3.0,
     "trailing_7_day_transfer_count": 0.0,
     "trailing_30_day_transfer_count": 4.0,
     "trailing_7_day_transfer_volume": 0.0,
@@ -526,23 +526,23 @@
     "network": "arbitrum",
     "total_asset_value_dollar": 5308.476297668559,
     "total_supply_token": 5153.7073554336475,
-    "holding_addresses_count": 3.0,
-    "trailing_7_day_active_addresses_count": 2.0,
+    "holding_addresses_count": 4.0,
+    "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 3.0,
-    "trailing_7_day_transfer_count": 0.0,
-    "trailing_30_day_transfer_count": 12.0,
-    "trailing_7_day_transfer_volume": 0.0,
-    "trailing_30_day_transfer_volume": 6818.4094810019105,
-    "top_holder_concentration": 99.22789727438744,
-    "top_5_holder_concentration": 100.0,
-    "top_10_holder_concentration": 100.0,
+    "trailing_7_day_transfer_count": 1.0,
+    "trailing_30_day_transfer_count": 13.0,
+    "trailing_7_day_transfer_volume": 524.795869,
+    "trailing_30_day_transfer_volume": 7343.20535000191,
+    "top_holder_concentration": 89.34189911648845,
+    "top_5_holder_concentration": 99.99999999999999,
+    "top_10_holder_concentration": 99.99999999999999,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
-      "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "holders_pct": 0.333333,
+      "activity_pct": -0.5,
+      "flow_usd": 524.8
     }
   },
   "defi-janus-henderson-anemoy-treasury-fund-token-base": {
@@ -571,9 +571,9 @@
     "holding_addresses_count": 15.0,
     "trailing_7_day_active_addresses_count": 4.0,
     "trailing_30_day_active_addresses_count": 5.0,
-    "trailing_7_day_transfer_count": 6.0,
+    "trailing_7_day_transfer_count": 5.0,
     "trailing_30_day_transfer_count": 10.0,
-    "trailing_7_day_transfer_volume": 25.561326127682996,
+    "trailing_7_day_transfer_volume": 24.558808699671665,
     "trailing_30_day_transfer_volume": 28.564696867340427,
     "top_holder_concentration": 50.23414826685061,
     "top_5_holder_concentration": 99.9998985921588,
@@ -584,7 +584,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -1.0
     }
   }
 }
