@@ -1,14 +1,29 @@
 {
   "date": "2026-07-07",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
       "k": [
-        "first_seen"
+        "flow_up",
+        "activity_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "flow_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "holders_up",
+        "activity_up"
       ]
     }
-  ]
+  ],
+  "deflates": [],
+  "new": []
 }
