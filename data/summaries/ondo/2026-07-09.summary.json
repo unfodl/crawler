@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-09",
+  "protocol": "ondo",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "us-natural-gas-fund-ondo-tokenized-bnb-chain",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "super-micro-computer-ondo-tokenized-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "super-micro-computer-ondo-tokenized-bnb-chain",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
