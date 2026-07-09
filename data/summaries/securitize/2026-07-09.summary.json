@@ -6,30 +6,37 @@
       "id": "securitize-corp-solana",
       "k": [
         "value_down",
-        "flow_up"
-      ]
-    }
-  ],
-  "deflates": [
-    {
-      "id": "securitize-corp-avalanche-c-chain",
-      "k": [
-        "value_down"
+        "activity_up",
+        "holders_up"
       ]
     },
     {
       "id": "currenc-group-inc-solana",
       "k": [
-        "flow_down"
+        "flow_down",
+        "value_up"
       ]
     }
   ],
-  "new": [
+  "deflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "apollo-diversified-credit-securitize-fund-solana",
       "k": [
-        "first_seen"
+        "activity_down"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "value_down"
       ]
     }
-  ]
+  ],
+  "new": []
 }
