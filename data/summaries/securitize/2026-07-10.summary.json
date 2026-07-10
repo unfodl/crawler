@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-10",
+  "protocol": "securitize",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
