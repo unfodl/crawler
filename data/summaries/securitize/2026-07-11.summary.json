@@ -6,18 +6,26 @@
       "id": "apollo-diversified-credit-securitize-fund-avalanche-c-chain",
       "k": [
         "flow_up",
-        "activity_down"
+        "activity_down",
+        "holders_up"
       ]
-    }
-  ],
-  "deflates": [
+    },
     {
       "id": "securitize-corp-solana",
       "k": [
-        "flow_down"
+        "flow_down",
+        "holders_up",
+        "value_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "value_up"
       ]
     }
   ],
+  "deflates": [],
   "new": [
     {
       "id": "exodus-movement-algorand",

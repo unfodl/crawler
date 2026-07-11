@@ -1,7 +1,37 @@
 {
   "date": "2026-07-11",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-stellar",
+      "k": [
+        "flow_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "defi-janus-henderson-anemoy-s-p500-fund-base",
+      "k": [
+        "flow_down",
+        "activity_up",
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "defi-janus-henderson-anemoy-aaa-clo-fund-token-base",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }

@@ -1,8 +1,39 @@
 {
   "date": "2026-07-11",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ishares-gold-trust-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ishares-gold-trust-ondo-tokenized-solana",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": [
     {
       "id": "servicenow-ondo-tokenized-bnb-chain",
