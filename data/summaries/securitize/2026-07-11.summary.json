@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-11",
+  "protocol": "securitize",
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-avalanche-c-chain",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
