@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-12",
+  "protocol": "ondo",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "ishares-gold-trust-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_up"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "us-natural-gas-fund-ondo-tokenized-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "super-micro-computer-ondo-tokenized-solana",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "super-micro-computer-ondo-tokenized-bnb-chain",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
