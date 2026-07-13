@@ -1,7 +1,48 @@
 {
   "date": "2026-07-13",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "activity_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-ethereum",
+      "k": [
+        "activity_up"
+      ]
+    },
+    {
+      "id": "ishares-core-msci-eafe-etf-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "us-natural-gas-fund-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
