@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-14",
+  "protocol": "centrifuge",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "jtrsy-derwa-stellar",
+      "k": [
+        "first_seen"
+      ]
+    },
+    {
+      "id": "jtrsy-derwa-ethereum",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
