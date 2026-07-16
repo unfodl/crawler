@@ -1,7 +1,36 @@
 {
   "date": "2026-07-16",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-avalanche-c-chain",
+      "k": [
+        "flow_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "flow_down",
+        "activity_up",
+        "value_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
