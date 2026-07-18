@@ -1,7 +1,49 @@
 {
   "date": "2026-07-18",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "janus-henderson-treasury-fund-plume",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "flow_up",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "janus-henderson-treasury-fund-arbitrum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-aaa-clo-fund-arbitrum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "janus-henderson-treasury-fund-avalanche-c-chain",
+      "k": [
+        "first_mint"
+      ]
+    }
+  ]
 }
