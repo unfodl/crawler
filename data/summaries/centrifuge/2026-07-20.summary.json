@@ -2,6 +2,19 @@
   "date": "2026-07-20",
   "protocol": "centrifuge",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "janus-henderson-aaa-clo-fund-bnb-chain",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }

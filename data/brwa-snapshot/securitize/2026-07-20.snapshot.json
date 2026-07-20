@@ -55,9 +55,9 @@
     "holding_addresses_count": 25.0,
     "trailing_7_day_active_addresses_count": 2.0,
     "trailing_30_day_active_addresses_count": 4.0,
-    "trailing_7_day_transfer_count": 4.0,
+    "trailing_7_day_transfer_count": 3.0,
     "trailing_30_day_transfer_count": 7.0,
-    "trailing_7_day_transfer_volume": 104387.10887566423,
+    "trailing_7_day_transfer_volume": 8880.531818363957,
     "trailing_30_day_transfer_volume": 29098255.613076583,
     "top_holder_concentration": 76.4426752530481,
     "top_5_holder_concentration": 97.27112180032663,
@@ -68,7 +68,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -95506.58
     }
   },
   "apollo-diversified-credit-securitize-fund-solana": {
@@ -84,9 +84,9 @@
     "trailing_30_day_transfer_count": 3.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 18356425.199742034,
-    "top_holder_concentration": 69.78849266100694,
-    "top_5_holder_concentration": 92.75656569380601,
-    "top_10_holder_concentration": 97.55842651289188,
+    "top_holder_concentration": 69.78849266100693,
+    "top_5_holder_concentration": 92.756565693806,
+    "top_10_holder_concentration": 97.55842651289187,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -428,7 +428,7 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 91.32195880139932,
+    "top_holder_concentration": 91.32195880139933,
     "top_5_holder_concentration": 95.78825391859948,
     "top_10_holder_concentration": 97.09285361994323,
     "change": {
@@ -474,12 +474,12 @@
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 8.0,
     "trailing_7_day_transfer_count": 5.0,
-    "trailing_30_day_transfer_count": 31.0,
+    "trailing_30_day_transfer_count": 30.0,
     "trailing_7_day_transfer_volume": 1641.81,
-    "trailing_30_day_transfer_volume": 3530879.8487,
-    "top_holder_concentration": 27.774271941956936,
-    "top_5_holder_concentration": 66.30893653960032,
-    "top_10_holder_concentration": 80.92822384092885,
+    "trailing_30_day_transfer_volume": 3530553.0387,
+    "top_holder_concentration": 27.774271941956947,
+    "top_5_holder_concentration": 66.30893653960034,
+    "top_10_holder_concentration": 80.92822384092887,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
