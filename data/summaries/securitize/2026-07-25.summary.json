@@ -1,14 +1,33 @@
 {
   "date": "2026-07-25",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "securitize-corp-avalanche-c-chain",
       "k": [
-        "first_seen"
+        "value_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_down"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": []
 }
