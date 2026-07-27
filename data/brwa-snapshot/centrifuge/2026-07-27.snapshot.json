@@ -8,10 +8,10 @@
     "holding_addresses_count": 15.0,
     "trailing_7_day_active_addresses_count": 10.0,
     "trailing_30_day_active_addresses_count": 11.0,
-    "trailing_7_day_transfer_count": 36.0,
-    "trailing_30_day_transfer_count": 47.0,
-    "trailing_7_day_transfer_volume": 73.962619124491,
-    "trailing_30_day_transfer_volume": 10179706.461447218,
+    "trailing_7_day_transfer_count": 32.0,
+    "trailing_30_day_transfer_count": 41.0,
+    "trailing_7_day_transfer_volume": 66.115248447163,
+    "trailing_30_day_transfer_volume": 9751804.396647219,
     "top_holder_concentration": 98.43089771563956,
     "top_5_holder_concentration": 99.89437508467189,
     "top_10_holder_concentration": 99.99999988643438,
@@ -21,7 +21,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -7.85
     }
   },
   "janus-henderson-aaa-clo-fund-ethereum": {
@@ -253,23 +253,23 @@
     "network": "base",
     "total_asset_value_dollar": 3164239.6094925697,
     "total_supply_token": 4251.7684340446685,
-    "holding_addresses_count": 513.0,
-    "trailing_7_day_active_addresses_count": 146.0,
-    "trailing_30_day_active_addresses_count": 359.0,
-    "trailing_7_day_transfer_count": 8535.0,
-    "trailing_30_day_transfer_count": 47005.0,
-    "trailing_7_day_transfer_volume": 23653311.07244427,
-    "trailing_30_day_transfer_volume": 146161487.57489237,
-    "top_holder_concentration": 52.385371181261334,
-    "top_5_holder_concentration": 93.92520357862422,
-    "top_10_holder_concentration": 98.42442191404749,
+    "holding_addresses_count": 516.0,
+    "trailing_7_day_active_addresses_count": 149.0,
+    "trailing_30_day_active_addresses_count": 365.0,
+    "trailing_7_day_transfer_count": 8777.0,
+    "trailing_30_day_transfer_count": 44567.0,
+    "trailing_7_day_transfer_volume": 23855311.945885602,
+    "trailing_30_day_transfer_volume": 135822010.51980677,
+    "top_holder_concentration": 52.373337677964024,
+    "top_5_holder_concentration": 93.07586804204556,
+    "top_10_holder_concentration": 97.75513534555648,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
-      "holders_pct": 0.0,
-      "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "holders_pct": 0.005848,
+      "activity_pct": 0.020548,
+      "flow_usd": 202000.87
     }
   },
   "janus-henderson-treasury-fund-plume": {
@@ -572,9 +572,9 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 99.89215019831325,
-    "top_5_holder_concentration": 99.99890118634784,
-    "top_10_holder_concentration": 100.00000000000001,
+    "top_holder_concentration": 99.89215019831323,
+    "top_5_holder_concentration": 99.99890118634782,
+    "top_10_holder_concentration": 100.0,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
