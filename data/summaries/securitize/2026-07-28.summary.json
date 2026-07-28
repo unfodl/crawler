@@ -1,7 +1,42 @@
 {
   "date": "2026-07-28",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": []
+  "inflates": [
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "activity_up",
+        "value_down",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "exodus-movement-algorand",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": [
+    {
+      "id": "blockchain-capital-token-zksync-era",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
 }
