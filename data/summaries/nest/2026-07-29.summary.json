@@ -1,7 +1,54 @@
 {
   "date": "2026-07-29",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-ethereum",
+      "k": [
+        "value_up",
+        "supply_up",
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-payfi-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-bnb-chain",
+      "k": [
+        "flow_down",
+        "holders_up",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "nest-basis-vault-ethereum",
+      "k": [
+        "activity_up",
+        "supply_down",
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
