@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-30",
+  "protocol": "nest",
+  "inflates": [],
+  "deflates": [],
+  "new": [
+    {
+      "id": "nest-blackopal-liquidstone-ii-vault-avalanche-c-chain",
+      "k": [
+        "first_seen"
+      ]
+    }
+  ]
+}
