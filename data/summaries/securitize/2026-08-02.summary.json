@@ -2,6 +2,19 @@
   "date": "2026-08-02",
   "protocol": "securitize",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "blockchain-capital-token-zksync-era",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
