@@ -1,7 +1,23 @@
 {
   "date": "2026-08-03",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "activity_up",
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "blockchain-capital-token-zksync-era",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
