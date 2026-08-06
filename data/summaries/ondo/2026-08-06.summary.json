@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-06",
+  "protocol": "ondo",
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [],
+  "new": []
+}
