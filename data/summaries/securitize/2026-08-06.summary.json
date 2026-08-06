@@ -1,14 +1,43 @@
 {
   "date": "2026-08-06",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "securitize-corp-solana",
       "k": [
-        "first_seen"
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "blockchain-capital-token-zksync-era",
+      "k": [
+        "flow_down",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "holders_up",
+        "supply_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "apollo-diversified-credit-securitize-fund-ethereum",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "apollo-diversified-credit-securitize-fund-solana",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
+  "new": []
 }

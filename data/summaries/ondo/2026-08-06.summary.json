@@ -3,13 +3,53 @@
   "protocol": "ondo",
   "inflates": [
     {
-      "id": "ondo-u-s-dollar-yield-stellar",
+      "id": "ondo-u-s-dollar-yield-mantle",
       "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "ishares-gold-trust-ondo-tokenized-bnb-chain",
+      "k": [
+        "flow_up",
         "activity_up",
-        "flow_up"
+        "supply_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-arbitrum",
+      "k": [
+        "flow_up",
+        "activity_up"
       ]
     }
   ],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-aptos",
+      "k": [
+        "supply_down",
+        "value_down",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "ondo-short-term-us-government-bond-fund-ethereum",
+      "k": [
+        "flow_down",
+        "activity_up",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-solana",
+      "k": [
+        "flow_up",
+        "activity_down",
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
