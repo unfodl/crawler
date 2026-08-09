@@ -8,10 +8,10 @@
     "holding_addresses_count": 90.0,
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 4.0,
-    "trailing_7_day_transfer_count": 4.0,
-    "trailing_30_day_transfer_count": 23.0,
-    "trailing_7_day_transfer_volume": 57466.082200000004,
-    "trailing_30_day_transfer_volume": 7185635.188599999,
+    "trailing_7_day_transfer_count": 3.0,
+    "trailing_30_day_transfer_count": 22.0,
+    "trailing_7_day_transfer_volume": 36221.020000000004,
+    "trailing_30_day_transfer_volume": 7185421.928599999,
     "top_holder_concentration": 78.66635122843189,
     "top_5_holder_concentration": 92.88487258776726,
     "top_10_holder_concentration": 95.15982582783563,
@@ -21,7 +21,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -21245.06
     }
   },
   "securitize-corp-avalanche-c-chain": {
@@ -84,9 +84,9 @@
     "trailing_30_day_transfer_count": 7.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 8758033.976626713,
-    "top_holder_concentration": 96.08059203244447,
-    "top_5_holder_concentration": 98.07823427436885,
-    "top_10_holder_concentration": 99.37486237819259,
+    "top_holder_concentration": 96.0805920324444,
+    "top_5_holder_concentration": 98.07823427436877,
+    "top_10_holder_concentration": 99.3748623781925,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -105,9 +105,9 @@
     "holding_addresses_count": 20.0,
     "trailing_7_day_active_addresses_count": 7.0,
     "trailing_30_day_active_addresses_count": 14.0,
-    "trailing_7_day_transfer_count": 15.0,
+    "trailing_7_day_transfer_count": 13.0,
     "trailing_30_day_transfer_count": 22.0,
-    "trailing_7_day_transfer_volume": 1738952.4935255554,
+    "trailing_7_day_transfer_volume": 1134268.8983688066,
     "trailing_30_day_transfer_volume": 6050111.424171463,
     "top_holder_concentration": 87.1815277154855,
     "top_5_holder_concentration": 97.36369737946542,
@@ -118,7 +118,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -604683.6
     }
   },
   "cosimo-x-ethereum": {
@@ -304,20 +304,20 @@
     "holding_addresses_count": 31.0,
     "trailing_7_day_active_addresses_count": 2.0,
     "trailing_30_day_active_addresses_count": 6.0,
-    "trailing_7_day_transfer_count": 18.0,
-    "trailing_30_day_transfer_count": 103.0,
-    "trailing_7_day_transfer_volume": 204118.56421264002,
-    "trailing_30_day_transfer_volume": 246567.79997176002,
-    "top_holder_concentration": 88.44521079328858,
-    "top_5_holder_concentration": 98.95989747516778,
-    "top_10_holder_concentration": 99.84354970671141,
+    "trailing_7_day_transfer_count": 10.0,
+    "trailing_30_day_transfer_count": 95.0,
+    "trailing_7_day_transfer_volume": 201136.83369244004,
+    "trailing_30_day_transfer_volume": 246326.37633268003,
+    "top_holder_concentration": 88.4452107932886,
+    "top_5_holder_concentration": 98.95989747516779,
+    "top_10_holder_concentration": 99.84354970671143,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -2981.73
     }
   },
   "apollo-diversified-credit-securitize-fund-polygon": {
@@ -499,20 +499,20 @@
     "holding_addresses_count": 66.0,
     "trailing_7_day_active_addresses_count": 4.0,
     "trailing_30_day_active_addresses_count": 5.0,
-    "trailing_7_day_transfer_count": 10.0,
-    "trailing_30_day_transfer_count": 28.0,
-    "trailing_7_day_transfer_volume": 1048093.16,
-    "trailing_30_day_transfer_volume": 2053522.5699999998,
+    "trailing_7_day_transfer_count": 8.0,
+    "trailing_30_day_transfer_count": 27.0,
+    "trailing_7_day_transfer_volume": 1027766.06,
+    "trailing_30_day_transfer_volume": 2053286.0099999998,
     "top_holder_concentration": 29.412217585777476,
-    "top_5_holder_concentration": 71.52351732669992,
-    "top_10_holder_concentration": 83.40172122694894,
+    "top_5_holder_concentration": 71.52351732669993,
+    "top_10_holder_concentration": 83.40172122694896,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -20327.1
     }
   },
   "spice-vc-ethereum": {
