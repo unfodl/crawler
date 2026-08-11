@@ -1,7 +1,51 @@
 {
   "date": "2026-08-11",
   "protocol": "nest",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "nest-perena-vault-plume",
+      "k": [
+        "value_up",
+        "supply_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-institutional-vault-plume",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    },
+    {
+      "id": "nest-etf-vault-plume",
+      "k": [
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "nest-wisdomtree-vault-plume",
+      "k": [
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "nest-elixir-vault-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "nest-basis-vault-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "holders_down"
+      ]
+    }
+  ],
   "new": []
 }
