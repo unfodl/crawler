@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-15",
+  "protocol": "ondo",
+  "inflates": [],
+  "deflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-stellar",
+      "k": [
+        "holders_down"
+      ]
+    }
+  ],
+  "new": []
+}
