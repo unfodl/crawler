@@ -1,14 +1,49 @@
 {
   "date": "2026-08-15",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
-  "new": [
+  "inflates": [
     {
-      "id": "exodus-movement-inc-algorand",
+      "id": "exodus-movement-algorand",
       "k": [
-        "first_seen"
+        "value_up"
+      ]
+    },
+    {
+      "id": "spice-vc-ethereum",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
       ]
     }
-  ]
+  ],
+  "deflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_down",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "flow_down",
+        "holders_up",
+        "value_down"
+      ]
+    },
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
+  "new": []
 }

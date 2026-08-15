@@ -1,7 +1,54 @@
 {
   "date": "2026-08-15",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "janus-henderson-aaa-clo-fund-ethereum",
+      "k": [
+        "activity_down",
+        "flow_up",
+        "holders_down"
+      ]
+    },
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-plume",
+      "k": [
+        "holders_up"
+      ]
+    },
+    {
+      "id": "janus-henderson-treasury-fund-bnb-chain",
+      "k": [
+        "value_up",
+        "supply_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "holders_up",
+        "flow_down",
+        "activity_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-s-p500-fund-base",
+      "k": [
+        "flow_down",
+        "supply_down",
+        "value_down"
+      ]
+    },
+    {
+      "id": "anemoy-tokenized-apollo-diversified-credit-fund-ethereum",
+      "k": [
+        "value_down",
+        "supply_down",
+        "flow_up"
+      ]
+    }
+  ],
   "new": []
 }
