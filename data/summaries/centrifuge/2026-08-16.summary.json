@@ -2,6 +2,21 @@
   "date": "2026-08-16",
   "protocol": "centrifuge",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-aaa-clo-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }

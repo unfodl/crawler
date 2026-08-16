@@ -2,6 +2,13 @@
   "date": "2026-08-16",
   "protocol": "securitize",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
