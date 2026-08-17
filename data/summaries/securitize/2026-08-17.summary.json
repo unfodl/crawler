@@ -1,7 +1,15 @@
 {
   "date": "2026-08-17",
   "protocol": "securitize",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "flow_up",
+        "activity_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }

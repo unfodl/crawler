@@ -2,6 +2,13 @@
   "date": "2026-08-17",
   "protocol": "centrifuge",
   "inflates": [],
-  "deflates": [],
+  "deflates": [
+    {
+      "id": "spxa-derwa-base",
+      "k": [
+        "activity_down"
+      ]
+    }
+  ],
   "new": []
 }
