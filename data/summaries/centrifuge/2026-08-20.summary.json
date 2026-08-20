@@ -1,7 +1,44 @@
 {
   "date": "2026-08-20",
   "protocol": "centrifuge",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "s-p-500-defi-centrifuge-base",
+      "k": [
+        "flow_up",
+        "supply_down",
+        "value_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-aaa-clo-fund-ethereum",
+      "k": [
+        "activity_up",
+        "flow_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "janus-henderson-aaa-clo-fund-bnb-chain",
+      "k": [
+        "flow_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-s-p500-fund-base",
+      "k": [
+        "flow_up",
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "janus-henderson-treasury-fund-bnb-chain",
+      "k": [
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
