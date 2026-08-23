@@ -1,0 +1,1 @@
+{"results": [], "filter": {"operator": "equals", "field": "protocol_slug", "value": "nest"}, "sort": {"field": "market_value_dollar", "direction": "desc"}, "pagination": {"page": 1, "perPage": 25, "resultCount": 0, "pageCount": 0}}
