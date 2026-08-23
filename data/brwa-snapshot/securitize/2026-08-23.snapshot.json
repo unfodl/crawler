@@ -133,9 +133,9 @@
     "trailing_30_day_transfer_count": 23.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 3090467.143520493,
-    "top_holder_concentration": 65.32867053047707,
-    "top_5_holder_concentration": 90.95690571574596,
-    "top_10_holder_concentration": 95.67763508462755,
+    "top_holder_concentration": 65.32867053047708,
+    "top_5_holder_concentration": 90.95690571574599,
+    "top_10_holder_concentration": 95.67763508462758,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
@@ -180,9 +180,9 @@
     "trailing_7_day_active_addresses_count": 1.0,
     "trailing_30_day_active_addresses_count": 1.0,
     "trailing_7_day_transfer_count": 0.0,
-    "trailing_30_day_transfer_count": 1.0,
+    "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
-    "trailing_30_day_transfer_volume": 10062532.48913128,
+    "trailing_30_day_transfer_volume": 0.0,
     "top_holder_concentration": 100.0,
     "top_5_holder_concentration": 100.0,
     "top_10_holder_concentration": 100.0,
@@ -303,10 +303,10 @@
     "total_supply_token": 149000.0,
     "holding_addresses_count": 34.0,
     "trailing_7_day_active_addresses_count": 4.0,
-    "trailing_30_day_active_addresses_count": 7.0,
-    "trailing_7_day_transfer_count": 11.0,
+    "trailing_30_day_active_addresses_count": 6.0,
+    "trailing_7_day_transfer_count": 9.0,
     "trailing_30_day_transfer_count": 68.0,
-    "trailing_7_day_transfer_volume": 77694.31485606999,
+    "trailing_7_day_transfer_volume": 77580.11029087,
     "trailing_30_day_transfer_volume": 315374.39860441,
     "top_holder_concentration": 88.60106176668346,
     "top_5_holder_concentration": 99.12160890703628,
@@ -317,7 +317,7 @@
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -114.2
     }
   },
   "apollo-diversified-credit-securitize-fund-polygon": {
@@ -499,20 +499,20 @@
     "holding_addresses_count": 59.0,
     "trailing_7_day_active_addresses_count": 4.0,
     "trailing_30_day_active_addresses_count": 8.0,
-    "trailing_7_day_transfer_count": 10.0,
-    "trailing_30_day_transfer_count": 32.0,
-    "trailing_7_day_transfer_volume": 18076366.840000004,
-    "trailing_30_day_transfer_volume": 20128040.78,
+    "trailing_7_day_transfer_count": 8.0,
+    "trailing_30_day_transfer_count": 30.0,
+    "trailing_7_day_transfer_volume": 18063349.73,
+    "trailing_30_day_transfer_volume": 19127804.67,
     "top_holder_concentration": 25.932804417295536,
-    "top_5_holder_concentration": 69.49348151538682,
-    "top_10_holder_concentration": 82.2179654512172,
+    "top_5_holder_concentration": 69.49348151538683,
+    "top_10_holder_concentration": 82.21796545121721,
     "change": {
       "tvl_usd": 0.0,
       "tvl_pct": 0.0,
       "supply_pct": 0.0,
       "holders_pct": 0.0,
       "activity_pct": 0.0,
-      "flow_usd": 0.0
+      "flow_usd": -13017.11
     }
   },
   "spice-vc-ethereum": {
@@ -528,7 +528,7 @@
     "trailing_30_day_transfer_count": 0.0,
     "trailing_7_day_transfer_volume": 0.0,
     "trailing_30_day_transfer_volume": 0.0,
-    "top_holder_concentration": 48.88699557289261,
+    "top_holder_concentration": 48.8869955728926,
     "top_5_holder_concentration": 69.66410592067203,
     "top_10_holder_concentration": 79.11402934401906,
     "change": {
