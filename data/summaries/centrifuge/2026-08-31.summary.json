@@ -1,7 +1,14 @@
 {
   "date": "2026-08-31",
   "protocol": "centrifuge",
-  "inflates": [],
+  "inflates": [
+    {
+      "id": "s-p-500-defi-centrifuge-base",
+      "k": [
+        "activity_up"
+      ]
+    }
+  ],
   "deflates": [],
   "new": []
 }
