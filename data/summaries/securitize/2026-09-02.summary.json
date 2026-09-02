@@ -1,7 +1,48 @@
 {
   "date": "2026-09-02",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "flow_up",
+        "activity_up",
+        "value_down"
+      ]
+    },
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "blackrock-usd-institutional-digital-liquidity-fund-ethereum",
+      "k": [
+        "holders_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "hamilton-lane-senior-credit-opportunities-securitize-fund-ethereum",
+      "k": [
+        "value_down",
+        "supply_down"
+      ]
+    },
+    {
+      "id": "securitize-corp-avalanche-c-chain",
+      "k": [
+        "value_down"
+      ]
+    },
+    {
+      "id": "exodus-movement-inc-algorand",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }
