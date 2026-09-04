@@ -1,7 +1,40 @@
 {
   "date": "2026-09-04",
   "protocol": "securitize",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "protos-ethereum",
+      "k": [
+        "flow_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "science-blockchain-ethereum",
+      "k": [
+        "value_up"
+      ]
+    },
+    {
+      "id": "securitize-corp-solana",
+      "k": [
+        "value_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "currenc-group-inc-solana",
+      "k": [
+        "value_down"
+      ]
+    },
+    {
+      "id": "spice-vc-ethereum",
+      "k": [
+        "value_down"
+      ]
+    }
+  ],
   "new": []
 }

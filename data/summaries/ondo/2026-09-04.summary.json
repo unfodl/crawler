@@ -1,7 +1,54 @@
 {
   "date": "2026-09-04",
   "protocol": "ondo",
-  "inflates": [],
-  "deflates": [],
+  "inflates": [
+    {
+      "id": "ondo-u-s-dollar-yield-aptos",
+      "k": [
+        "flow_up",
+        "holders_up"
+      ]
+    },
+    {
+      "id": "ishares-core-msci-eafe-etf-ondo-tokenized-bnb-chain",
+      "k": [
+        "supply_up",
+        "value_up",
+        "flow_down"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-yield-solana",
+      "k": [
+        "flow_down",
+        "activity_up"
+      ]
+    }
+  ],
+  "deflates": [
+    {
+      "id": "ishares-gold-trust-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "d-wave-quantum-ondo-tokenized-ethereum",
+      "k": [
+        "flow_down",
+        "activity_down",
+        "value_up"
+      ]
+    },
+    {
+      "id": "ondo-u-s-dollar-token-solana",
+      "k": [
+        "activity_down",
+        "flow_down"
+      ]
+    }
+  ],
   "new": []
 }
